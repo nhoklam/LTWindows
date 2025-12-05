@@ -34,5 +34,23 @@ namespace Example
             Example02 objEx1 = new Example02();
             objEx1.Show();
         }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            Example03 objEx1 = new Example03();
+            objEx1.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Example05 objEx1 = new Example05();
+            objEx1.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Example06 objEx1 = new Example06();
+            objEx1.Show();
+        }
     }
 }
