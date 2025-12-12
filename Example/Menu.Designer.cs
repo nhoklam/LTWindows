@@ -76,8 +76,9 @@
             button3.Name = "button3";
             button3.Size = new Size(85, 64);
             button3.TabIndex = 2;
-            button3.Text = "Example01";
+            button3.Text = "Example25";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -85,8 +86,9 @@
             button4.Name = "button4";
             button4.Size = new Size(85, 64);
             button4.TabIndex = 3;
-            button4.Text = "Example01";
+            button4.Text = "Example20";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -94,8 +96,9 @@
             button5.Name = "button5";
             button5.Size = new Size(85, 64);
             button5.TabIndex = 4;
-            button5.Text = "Example01";
+            button5.Text = "Example15";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -103,8 +106,9 @@
             button6.Name = "button6";
             button6.Size = new Size(85, 64);
             button6.TabIndex = 5;
-            button6.Text = "Example01";
+            button6.Text = "Example10";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -132,8 +136,9 @@
             button8.Name = "button8";
             button8.Size = new Size(85, 64);
             button8.TabIndex = 11;
-            button8.Text = "Example01";
+            button8.Text = "Example11";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -141,8 +146,9 @@
             button9.Name = "button9";
             button9.Size = new Size(85, 64);
             button9.TabIndex = 10;
-            button9.Text = "Example01";
+            button9.Text = "Example16";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -150,8 +156,9 @@
             button10.Name = "button10";
             button10.Size = new Size(85, 64);
             button10.TabIndex = 9;
-            button10.Text = "Example01";
+            button10.Text = "Example21";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button11
             // 
@@ -159,8 +166,9 @@
             button11.Name = "button11";
             button11.Size = new Size(85, 64);
             button11.TabIndex = 8;
-            button11.Text = "Example01";
+            button11.Text = "Example26";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -178,8 +186,9 @@
             button13.Name = "button13";
             button13.Size = new Size(85, 64);
             button13.TabIndex = 18;
-            button13.Text = "Example01";
+            button13.Text = "Example07";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
             // 
             // button14
             // 
@@ -187,8 +196,9 @@
             button14.Name = "button14";
             button14.Size = new Size(85, 64);
             button14.TabIndex = 17;
-            button14.Text = "Example01";
+            button14.Text = "Example12";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
             // 
             // button15
             // 
@@ -196,8 +206,9 @@
             button15.Name = "button15";
             button15.Size = new Size(85, 64);
             button15.TabIndex = 16;
-            button15.Text = "Example01";
+            button15.Text = "Example17";
             button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
             // 
             // button16
             // 
@@ -205,8 +216,9 @@
             button16.Name = "button16";
             button16.Size = new Size(85, 64);
             button16.TabIndex = 15;
-            button16.Text = "Example01";
+            button16.Text = "Example22";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
             // 
             // button17
             // 
@@ -214,8 +226,9 @@
             button17.Name = "button17";
             button17.Size = new Size(85, 64);
             button17.TabIndex = 14;
-            button17.Text = "Example01";
+            button17.Text = "Example27";
             button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
             // 
             // button18
             // 
@@ -234,8 +247,9 @@
             button19.Name = "button19";
             button19.Size = new Size(85, 64);
             button19.TabIndex = 24;
-            button19.Text = "Example01";
+            button19.Text = "Example08";
             button19.UseVisualStyleBackColor = true;
+            button19.Click += button19_Click;
             // 
             // button20
             // 
@@ -243,8 +257,9 @@
             button20.Name = "button20";
             button20.Size = new Size(85, 64);
             button20.TabIndex = 23;
-            button20.Text = "Example01";
+            button20.Text = "Example13";
             button20.UseVisualStyleBackColor = true;
+            button20.Click += button20_Click;
             // 
             // button21
             // 
@@ -252,8 +267,9 @@
             button21.Name = "button21";
             button21.Size = new Size(85, 64);
             button21.TabIndex = 22;
-            button21.Text = "Example01";
+            button21.Text = "Example18";
             button21.UseVisualStyleBackColor = true;
+            button21.Click += button21_Click;
             // 
             // button22
             // 
@@ -261,8 +277,9 @@
             button22.Name = "button22";
             button22.Size = new Size(85, 64);
             button22.TabIndex = 21;
-            button22.Text = "Example01";
+            button22.Text = "Example23";
             button22.UseVisualStyleBackColor = true;
+            button22.Click += button22_Click;
             // 
             // button23
             // 
@@ -270,7 +287,7 @@
             button23.Name = "button23";
             button23.Size = new Size(85, 64);
             button23.TabIndex = 20;
-            button23.Text = "Example01";
+            button23.Text = "Example28";
             button23.UseVisualStyleBackColor = true;
             // 
             // button24
@@ -289,8 +306,9 @@
             button25.Name = "button25";
             button25.Size = new Size(85, 64);
             button25.TabIndex = 30;
-            button25.Text = "Example01";
+            button25.Text = "Example09";
             button25.UseVisualStyleBackColor = true;
+            button25.Click += button25_Click;
             // 
             // button26
             // 
@@ -298,8 +316,9 @@
             button26.Name = "button26";
             button26.Size = new Size(85, 64);
             button26.TabIndex = 29;
-            button26.Text = "Example01";
+            button26.Text = "Example14";
             button26.UseVisualStyleBackColor = true;
+            button26.Click += button26_Click;
             // 
             // button27
             // 
@@ -307,8 +326,9 @@
             button27.Name = "button27";
             button27.Size = new Size(85, 64);
             button27.TabIndex = 28;
-            button27.Text = "Example01";
+            button27.Text = "Example19";
             button27.UseVisualStyleBackColor = true;
+            button27.Click += button27_Click;
             // 
             // button28
             // 
@@ -316,8 +336,9 @@
             button28.Name = "button28";
             button28.Size = new Size(85, 64);
             button28.TabIndex = 27;
-            button28.Text = "Example01";
+            button28.Text = "Example24";
             button28.UseVisualStyleBackColor = true;
+            button28.Click += button28_Click;
             // 
             // button30
             // 
@@ -325,7 +346,7 @@
             button30.Name = "button30";
             button30.Size = new Size(85, 64);
             button30.TabIndex = 25;
-            button30.Text = "Example01";
+            button30.Text = "Example04";
             button30.UseVisualStyleBackColor = true;
             // 
             // button29
@@ -334,7 +355,7 @@
             button29.Name = "button29";
             button29.Size = new Size(85, 64);
             button29.TabIndex = 26;
-            button29.Text = "Example01";
+            button29.Text = "Example29";
             button29.UseVisualStyleBackColor = true;
             // 
             // Menu

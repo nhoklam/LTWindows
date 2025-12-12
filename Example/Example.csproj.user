@@ -19,6 +19,75 @@
     <Compile Update="Example06.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Example07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Example29.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
