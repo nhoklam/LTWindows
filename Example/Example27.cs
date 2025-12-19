@@ -55,8 +55,8 @@ namespace Example
             // Tải hình ảnh (Dùng đường dẫn tuyệt đối hoặc tương đối)
             try
             {
-                pbEgg.Image = Image.FromFile(@"D:\LTwindows\LTWindows\Example\Images\egg.jpg");
-                pbBasket.Image = Image.FromFile(@"D:\LTwindows\LTWindows\Example\Images\basket.jpg");
+                pbEgg.Image = Image.FromFile(@"D:\LTWindows\Example\Images\egg.jpg");
+                pbBasket.Image = Image.FromFile(@"D:\LTWindows\Example\Images\basket.jpg");
             }
             catch
             {

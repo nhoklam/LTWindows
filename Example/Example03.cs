@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using System.IO;                 // Để dùng StreamWriter, StreamReader
-using System.Xml.Serialization;  // Để dùng XmlSerializer
-
+using System.IO;
+using System.Xml.Serialization;
 namespace Example
 {
     public partial class Example03 : Form
     {
-        // Đường dẫn file lưu cấu hình (bạn có thể đổi ổ D: nếu máy không có)
         string path = @"D:\form_config.xml";
         InfoWindows iw = new InfoWindows();
 
@@ -17,7 +15,6 @@ namespace Example
             InitializeComponent();
         }
 
-        // Hàm ghi dữ liệu ra file XML
         public void Write(InfoWindows iw)
         {
             try
@@ -34,7 +31,6 @@ namespace Example
             }
         }
 
-        // Hàm đọc dữ liệu từ file XML
         public InfoWindows Read()
         {
             try
@@ -53,7 +49,6 @@ namespace Example
             }
         }
 
-        // Sự kiện Form Load: Đọc file và khôi phục vị trí, kích thước
         private void Example03_Load(object sender, EventArgs e)
         {
             InfoWindows savedInfo = Read();
@@ -61,17 +56,15 @@ namespace Example
             {
                 this.Width = savedInfo.Width;
                 this.Height = savedInfo.Height;
-                this.Location = savedInfo.Location; // Khôi phục vị trí
+                this.Location = savedInfo.Location;
             }
         }
 
-        // Sự kiện Form Closing: Lưu lại vị trí, kích thước hiện tại
         private void Example03_FormClosing(object sender, FormClosingEventArgs e)
         {
             iw.Width = this.Size.Width;
             iw.Height = this.Size.Height;
-            iw.Location = this.Location; // Lưu vị trí hiện tại
-
+            iw.Location = this.Location;
             Write(iw);
         }
     }

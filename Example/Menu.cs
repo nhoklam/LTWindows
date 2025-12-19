@@ -178,5 +178,11 @@ namespace Example
             Example27 ex27 = new Example27();
             ex27.Show();
         }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            Example28 ex28 = new Example28();
+            ex28.Show();
+        }
     }
 }

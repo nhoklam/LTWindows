@@ -26,7 +26,7 @@ namespace Example
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
-                e.Handled = true; // Chặn không cho nhập (Slide 65)
+                e.Handled = true;
             }
         }
 
@@ -34,15 +34,11 @@ namespace Example
         {
             if (string.IsNullOrEmpty(tbYear.Text)) return;
 
-            // Kiểm tra logic
             int year;
-            // Thử đổi chữ sang số
             if (int.TryParse(tbYear.Text, out year))
             {
-                // Nếu năm lớn hơn 2000 (theo ví dụ Slide 66)
                 if (year > 2000)
                 {
-                    // Giữ chuột lại, không cho thoát ra
                     e.Cancel = true;
                     MessageBox.Show("Năm phải nhỏ hơn hoặc bằng 2000!", "Lỗi nhập liệu");
                 }

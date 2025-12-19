@@ -12,10 +12,8 @@ namespace Example
 {
     public partial class Example10 : Form
     {
-        // 1. Khai báo biến toàn cục (Global Variables) để lưu trữ giá trị và phép toán
-        // Theo Slide 78
-        decimal workingMemory = 0; // Lưu số hạng đầu tiên
-        string opr = "";           // Lưu phép toán (+ hoặc *)
+        decimal workingMemory = 0;
+        string opr = "";
         public Example10()
         {
             InitializeComponent();
@@ -33,12 +31,12 @@ namespace Example
 
         private void bt1_Click(object sender, EventArgs e)
         {
-            tbDisplay.Text += bt1.Text; // Slide 78
+            tbDisplay.Text += bt1.Text;
         }
 
         private void bt2_Click(object sender, EventArgs e)
         {
-            tbDisplay.Text += bt2.Text; // Slide 78
+            tbDisplay.Text += bt2.Text;
         }
 
         private void bt3_Click(object sender, EventArgs e)
@@ -48,7 +46,6 @@ namespace Example
 
         private void btDot_Click(object sender, EventArgs e)
         {
-            // Kiểm tra để tránh nhập 2 dấu chấm (tùy chọn thêm)
             if (!tbDisplay.Text.Contains("."))
             {
                 tbDisplay.Text += ".";
@@ -57,24 +54,22 @@ namespace Example
 
         private void btPlus_Click(object sender, EventArgs e)
         {
-            opr = btPlus.Text; // Lưu dấu "+" vào biến opr
-            workingMemory = decimal.Parse(tbDisplay.Text); // Lưu số hiện tại vào bộ nhớ
-            tbDisplay.Clear(); // Xóa màn hình để nhập số thứ hai
+            opr = btPlus.Text;
+            workingMemory = decimal.Parse(tbDisplay.Text);
+            tbDisplay.Clear();
         }
 
         private void btMul_Click(object sender, EventArgs e)
         {
-            opr = btMul.Text; // Lưu dấu "*"
+            opr = btMul.Text;
             workingMemory = decimal.Parse(tbDisplay.Text);
             tbDisplay.Clear();
         }
 
         private void btEquals_Click(object sender, EventArgs e)
         {
-            // Lấy số thứ hai từ màn hình
             decimal secondValue = decimal.Parse(tbDisplay.Text);
 
-            // Kiểm tra phép toán đã chọn trước đó và tính toán
             if (opr == "+")
             {
                 tbDisplay.Text = (workingMemory + secondValue).ToString();
@@ -85,7 +80,6 @@ namespace Example
                 tbDisplay.Text = (workingMemory * secondValue).ToString();
             }
 
-            // Slide 79 gợi ý dùng if(opr == ...), bạn có thể dùng switch-case cũng được.
         }
     }
 }

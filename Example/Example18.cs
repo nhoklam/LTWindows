@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections; // <-- Cần thêm dòng này để dùng ArrayList (Slide 123)
+using System.Collections;
 using System.Windows.Forms;
 
 namespace Example
@@ -11,7 +11,6 @@ namespace Example
             InitializeComponent();
         }
 
-        // Hàm tạo dữ liệu giả lập (Slide 123)
         public ArrayList GetData()
         {
             ArrayList lst = new ArrayList();
@@ -37,30 +36,23 @@ namespace Example
             return lst;
         }
 
-        // Sự kiện Load Form (Slide 124)
         private void Example18_Load(object sender, EventArgs e)
         {
             ArrayList lst = GetData();
 
-            // Gán nguồn dữ liệu là danh sách đối tượng Song
             lbSong.DataSource = lst;
 
-            // Chỉ hiển thị tên bài hát lên ListBox
             lbSong.DisplayMember = "Name";
         }
 
-        // Sự kiện Click nút > (Slide 124)
         private void btSelect_Click(object sender, EventArgs e)
         {
-            // Ép kiểu mục đang chọn về object Song
             Song song = (Song)lbSong.SelectedItem;
 
-            // Lấy thông tin chi tiết
             string id = song.Id.ToString();
             string name = song.Name;
             string author = song.Author;
 
-            // Hiển thị chuỗi tổng hợp sang ListBox bên phải
             lbFavorite.Items.Add(id + " - " + name + " - " + author);
         }
     }

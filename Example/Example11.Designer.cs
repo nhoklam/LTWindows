@@ -76,7 +76,7 @@
             btnMC.Location = new Point(14, 75);
             btnMC.Margin = new Padding(4, 3, 4, 3);
             btnMC.Name = "btnMC";
-            btnMC.Size = new Size(58, 46);
+            btnMC.Size = new Size(47, 37);
             btnMC.TabIndex = 1;
             btnMC.Text = "MC";
             btnMC.UseVisualStyleBackColor = true;
@@ -87,7 +87,7 @@
             btnMR.Location = new Point(79, 75);
             btnMR.Margin = new Padding(4, 3, 4, 3);
             btnMR.Name = "btnMR";
-            btnMR.Size = new Size(58, 46);
+            btnMR.Size = new Size(47, 37);
             btnMR.TabIndex = 2;
             btnMR.Text = "MR";
             btnMR.UseVisualStyleBackColor = true;
@@ -98,7 +98,7 @@
             btnMS.Location = new Point(145, 75);
             btnMS.Margin = new Padding(4, 3, 4, 3);
             btnMS.Name = "btnMS";
-            btnMS.Size = new Size(58, 46);
+            btnMS.Size = new Size(47, 37);
             btnMS.TabIndex = 3;
             btnMS.Text = "MS";
             btnMS.UseVisualStyleBackColor = true;
@@ -109,7 +109,7 @@
             btnMPlus.Location = new Point(210, 75);
             btnMPlus.Margin = new Padding(4, 3, 4, 3);
             btnMPlus.Name = "btnMPlus";
-            btnMPlus.Size = new Size(58, 46);
+            btnMPlus.Size = new Size(47, 37);
             btnMPlus.TabIndex = 4;
             btnMPlus.Text = "M+";
             btnMPlus.UseVisualStyleBackColor = true;
@@ -120,7 +120,7 @@
             btnMMinus.Location = new Point(275, 75);
             btnMMinus.Margin = new Padding(4, 3, 4, 3);
             btnMMinus.Name = "btnMMinus";
-            btnMMinus.Size = new Size(58, 46);
+            btnMMinus.Size = new Size(47, 37);
             btnMMinus.TabIndex = 5;
             btnMMinus.Text = "M-";
             btnMMinus.UseVisualStyleBackColor = true;
@@ -131,7 +131,7 @@
             btnBack.Location = new Point(14, 128);
             btnBack.Margin = new Padding(4, 3, 4, 3);
             btnBack.Name = "btnBack";
-            btnBack.Size = new Size(58, 46);
+            btnBack.Size = new Size(47, 37);
             btnBack.TabIndex = 6;
             btnBack.Text = "←";
             btnBack.UseVisualStyleBackColor = true;
@@ -142,7 +142,7 @@
             btnCE.Location = new Point(79, 128);
             btnCE.Margin = new Padding(4, 3, 4, 3);
             btnCE.Name = "btnCE";
-            btnCE.Size = new Size(58, 46);
+            btnCE.Size = new Size(47, 37);
             btnCE.TabIndex = 7;
             btnCE.Text = "CE";
             btnCE.UseVisualStyleBackColor = true;
@@ -153,7 +153,7 @@
             btnC.Location = new Point(145, 128);
             btnC.Margin = new Padding(4, 3, 4, 3);
             btnC.Name = "btnC";
-            btnC.Size = new Size(58, 46);
+            btnC.Size = new Size(47, 37);
             btnC.TabIndex = 8;
             btnC.Text = "C";
             btnC.UseVisualStyleBackColor = true;
@@ -164,7 +164,7 @@
             btnSign.Location = new Point(210, 128);
             btnSign.Margin = new Padding(4, 3, 4, 3);
             btnSign.Name = "btnSign";
-            btnSign.Size = new Size(58, 46);
+            btnSign.Size = new Size(47, 37);
             btnSign.TabIndex = 9;
             btnSign.Text = "±";
             btnSign.UseVisualStyleBackColor = true;
@@ -175,7 +175,7 @@
             btnSqrt.Location = new Point(275, 128);
             btnSqrt.Margin = new Padding(4, 3, 4, 3);
             btnSqrt.Name = "btnSqrt";
-            btnSqrt.Size = new Size(58, 46);
+            btnSqrt.Size = new Size(47, 37);
             btnSqrt.TabIndex = 10;
             btnSqrt.Text = "√";
             btnSqrt.UseVisualStyleBackColor = true;
@@ -186,7 +186,7 @@
             btn7.Location = new Point(14, 181);
             btn7.Margin = new Padding(4, 3, 4, 3);
             btn7.Name = "btn7";
-            btn7.Size = new Size(58, 46);
+            btn7.Size = new Size(47, 37);
             btn7.TabIndex = 11;
             btn7.Text = "7";
             btn7.UseVisualStyleBackColor = true;
@@ -197,7 +197,7 @@
             btn8.Location = new Point(79, 181);
             btn8.Margin = new Padding(4, 3, 4, 3);
             btn8.Name = "btn8";
-            btn8.Size = new Size(58, 46);
+            btn8.Size = new Size(47, 37);
             btn8.TabIndex = 12;
             btn8.Text = "8";
             btn8.UseVisualStyleBackColor = true;
@@ -208,7 +208,7 @@
             btn9.Location = new Point(145, 181);
             btn9.Margin = new Padding(4, 3, 4, 3);
             btn9.Name = "btn9";
-            btn9.Size = new Size(58, 46);
+            btn9.Size = new Size(47, 37);
             btn9.TabIndex = 13;
             btn9.Text = "9";
             btn9.UseVisualStyleBackColor = true;
@@ -219,7 +219,7 @@
             btnDiv.Location = new Point(210, 181);
             btnDiv.Margin = new Padding(4, 3, 4, 3);
             btnDiv.Name = "btnDiv";
-            btnDiv.Size = new Size(58, 46);
+            btnDiv.Size = new Size(47, 37);
             btnDiv.TabIndex = 14;
             btnDiv.Text = "/";
             btnDiv.UseVisualStyleBackColor = true;
@@ -230,7 +230,7 @@
             btnPercent.Location = new Point(275, 181);
             btnPercent.Margin = new Padding(4, 3, 4, 3);
             btnPercent.Name = "btnPercent";
-            btnPercent.Size = new Size(58, 46);
+            btnPercent.Size = new Size(47, 37);
             btnPercent.TabIndex = 15;
             btnPercent.Text = "%";
             btnPercent.UseVisualStyleBackColor = true;
@@ -241,7 +241,7 @@
             btn4.Location = new Point(14, 234);
             btn4.Margin = new Padding(4, 3, 4, 3);
             btn4.Name = "btn4";
-            btn4.Size = new Size(58, 46);
+            btn4.Size = new Size(47, 37);
             btn4.TabIndex = 16;
             btn4.Text = "4";
             btn4.UseVisualStyleBackColor = true;
@@ -252,7 +252,7 @@
             btn5.Location = new Point(79, 234);
             btn5.Margin = new Padding(4, 3, 4, 3);
             btn5.Name = "btn5";
-            btn5.Size = new Size(58, 46);
+            btn5.Size = new Size(47, 37);
             btn5.TabIndex = 17;
             btn5.Text = "5";
             btn5.UseVisualStyleBackColor = true;
@@ -263,7 +263,7 @@
             btn6.Location = new Point(145, 234);
             btn6.Margin = new Padding(4, 3, 4, 3);
             btn6.Name = "btn6";
-            btn6.Size = new Size(58, 46);
+            btn6.Size = new Size(47, 37);
             btn6.TabIndex = 18;
             btn6.Text = "6";
             btn6.UseVisualStyleBackColor = true;
@@ -274,7 +274,7 @@
             btnMul.Location = new Point(210, 234);
             btnMul.Margin = new Padding(4, 3, 4, 3);
             btnMul.Name = "btnMul";
-            btnMul.Size = new Size(58, 46);
+            btnMul.Size = new Size(47, 37);
             btnMul.TabIndex = 19;
             btnMul.Text = "*";
             btnMul.UseVisualStyleBackColor = true;
@@ -285,7 +285,7 @@
             btnInverse.Location = new Point(275, 234);
             btnInverse.Margin = new Padding(4, 3, 4, 3);
             btnInverse.Name = "btnInverse";
-            btnInverse.Size = new Size(58, 46);
+            btnInverse.Size = new Size(47, 37);
             btnInverse.TabIndex = 20;
             btnInverse.Text = "1/x";
             btnInverse.UseVisualStyleBackColor = true;
@@ -296,7 +296,7 @@
             btn1.Location = new Point(14, 287);
             btn1.Margin = new Padding(4, 3, 4, 3);
             btn1.Name = "btn1";
-            btn1.Size = new Size(58, 46);
+            btn1.Size = new Size(47, 37);
             btn1.TabIndex = 21;
             btn1.Text = "1";
             btn1.UseVisualStyleBackColor = true;
@@ -307,7 +307,7 @@
             btn2.Location = new Point(79, 287);
             btn2.Margin = new Padding(4, 3, 4, 3);
             btn2.Name = "btn2";
-            btn2.Size = new Size(58, 46);
+            btn2.Size = new Size(47, 37);
             btn2.TabIndex = 22;
             btn2.Text = "2";
             btn2.UseVisualStyleBackColor = true;
@@ -318,7 +318,7 @@
             btn3.Location = new Point(145, 287);
             btn3.Margin = new Padding(4, 3, 4, 3);
             btn3.Name = "btn3";
-            btn3.Size = new Size(58, 46);
+            btn3.Size = new Size(47, 37);
             btn3.TabIndex = 23;
             btn3.Text = "3";
             btn3.UseVisualStyleBackColor = true;
@@ -329,7 +329,7 @@
             btnSub.Location = new Point(210, 287);
             btnSub.Margin = new Padding(4, 3, 4, 3);
             btnSub.Name = "btnSub";
-            btnSub.Size = new Size(58, 46);
+            btnSub.Size = new Size(47, 37);
             btnSub.TabIndex = 24;
             btnSub.Text = "-";
             btnSub.UseVisualStyleBackColor = true;
@@ -340,7 +340,7 @@
             btnEquals.Location = new Point(275, 287);
             btnEquals.Margin = new Padding(4, 3, 4, 3);
             btnEquals.Name = "btnEquals";
-            btnEquals.Size = new Size(58, 99);
+            btnEquals.Size = new Size(47, 90);
             btnEquals.TabIndex = 25;
             btnEquals.Text = "=";
             btnEquals.UseVisualStyleBackColor = true;
@@ -351,7 +351,7 @@
             btn0.Location = new Point(14, 340);
             btn0.Margin = new Padding(4, 3, 4, 3);
             btn0.Name = "btn0";
-            btn0.Size = new Size(124, 46);
+            btn0.Size = new Size(113, 37);
             btn0.TabIndex = 26;
             btn0.Text = "0";
             btn0.UseVisualStyleBackColor = true;
@@ -362,7 +362,7 @@
             btnDot.Location = new Point(145, 340);
             btnDot.Margin = new Padding(4, 3, 4, 3);
             btnDot.Name = "btnDot";
-            btnDot.Size = new Size(58, 46);
+            btnDot.Size = new Size(47, 37);
             btnDot.TabIndex = 27;
             btnDot.Text = ".";
             btnDot.UseVisualStyleBackColor = true;
@@ -373,7 +373,7 @@
             btnAdd.Location = new Point(210, 340);
             btnAdd.Margin = new Padding(4, 3, 4, 3);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(58, 46);
+            btnAdd.Size = new Size(47, 37);
             btnAdd.TabIndex = 28;
             btnAdd.Text = "+";
             btnAdd.UseVisualStyleBackColor = true;
@@ -383,7 +383,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(348, 400);
+            ClientSize = new Size(339, 401);
             Controls.Add(btnAdd);
             Controls.Add(btnDot);
             Controls.Add(btn0);

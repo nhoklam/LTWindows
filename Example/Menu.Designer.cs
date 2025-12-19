@@ -289,6 +289,7 @@
             button23.TabIndex = 20;
             button23.Text = "Example28";
             button23.UseVisualStyleBackColor = true;
+            button23.Click += button23_Click;
             // 
             // button24
             // 
