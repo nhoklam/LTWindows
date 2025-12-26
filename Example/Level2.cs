@@ -15,7 +15,7 @@ namespace Example
         System.Windows.Forms.Timer tmEgg = new System.Windows.Forms.Timer();
         System.Windows.Forms.Timer tmChicken = new System.Windows.Forms.Timer();
         WMPLib.WindowsMediaPlayer gameMusic = new WMPLib.WindowsMediaPlayer();
-        SoundPlayer soundCollect = new SoundPlayer(@"D:\LTWindows\Example\Sounds\breaking.wav");
+        SoundPlayer soundCollect = new SoundPlayer(@"Sounds\breaking.wav");
 
         Image imgEggNormal;
         Image imgEggBroken;
@@ -60,9 +60,9 @@ namespace Example
         {
             try
             {
-                imgEggNormal = Image.FromFile(@"D:\LTWindows\Example\Images\egg.png");
-                imgEggBroken = Image.FromFile(@"D:\LTWindows\Example\Images\egg_broken.png");
-                this.BackgroundImage = Image.FromFile(@"D:\LTWindows\Example\Images\background.jpg");
+                imgEggNormal = Image.FromFile(@"Images\egg.png");
+                imgEggBroken = Image.FromFile(@"Images\egg_broken.png");
+                this.BackgroundImage = Image.FromFile(@"Images\background.jpg");
                 this.BackgroundImageLayout = ImageLayout.Stretch;
             }
             catch { }
@@ -77,12 +77,12 @@ namespace Example
 
             yBasket = this.ClientSize.Height - 80;
 
-            SetupPictureBox(pbBasket, xBasket, yBasket, 70, 70, @"D:\LTWindows\Example\Images\basket.png");
+            SetupPictureBox(pbBasket, xBasket, yBasket, 70, 70, @"Images\basket.png");
 
             SetupPictureBox(pbEgg, xEgg, yEgg, 40, 50, "");
             if (imgEggNormal != null) pbEgg.Image = imgEggNormal;
 
-            SetupPictureBox(pbChicken, xChicken, yChicken, 100, 100, @"D:\LTWindows\Example\Images\chicken.png");
+            SetupPictureBox(pbChicken, xChicken, yChicken, 100, 100, @"Images\chicken.png");
 
             lblScore.Text = "Level 2 - Score: 0 / " + targetScore;
             lblScore.Font = new Font("Arial", 14, FontStyle.Bold);
@@ -93,7 +93,7 @@ namespace Example
 
             try
             {
-                gameMusic.URL = @"D:\LTWindows\Example\Sounds\music.mp3";
+                gameMusic.URL = @"Sounds\music.mp3";
                 gameMusic.settings.setMode("loop", true);
                 gameMusic.settings.volume = 50;
                 gameMusic.controls.play();
@@ -188,6 +188,9 @@ namespace Example
 
         private void Level2_KeyDown(object sender, KeyEventArgs e)
         {
+            if (e.KeyValue == 39 && (xBasket < this.ClientSize.Width - pbBasket.Width)) xBasket += xDeltaBasket;
+            if (e.KeyValue == 37 && xBasket > 0) xBasket -= xDeltaBasket;
+            pbBasket.Location = new Point(xBasket, yBasket);
         }
     }
 }

@@ -26,7 +26,7 @@ namespace Example
             pb.SizeMode = PictureBoxSizeMode.StretchImage;
             pb.Size = new Size(50, 50); pb.Location = new Point(xBall, yBall);
 
-            pb.ImageLocation = @"D:\\LTWindows\Example\Images\egg.png";
+            pb.ImageLocation = @"Images\egg.png";
 
 
             this.Controls.Add(pb);

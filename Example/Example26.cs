@@ -32,7 +32,7 @@ namespace Example
 
             try
             {
-                pbEgg.Image = Image.FromFile(@"D:\LTwindows\LTWindows\Example\Images\egg.jpg");
+                pbEgg.Image = Image.FromFile(@"Images\egg.png");
             }
             catch
             {
@@ -48,7 +48,7 @@ namespace Example
             {
                 try
                 {
-                    pbEgg.Image = Image.FromFile(@"D:\LTwindows\LTWindows\Example\Images\egg_broken.jpg");
+                    pbEgg.Image = Image.FromFile(@"Images\egg_broken.png");
                 }
                 catch
                 {
