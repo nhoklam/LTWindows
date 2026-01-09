@@ -1,270 +1,56 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\LTW\\LTWindows\\",
+  "WorkspaceRootPath": "D:\\LTWindows\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example28.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example28.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|d:\\ltwindows\\example2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|solutionrelative:example2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|d:\\ltwindows\\example2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|solutionrelative:example2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example24.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|d:\\ltwindows\\example2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|solutionrelative:example2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|d:\\ltwindows\\example2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|solutionrelative:example2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltwindows\\example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example27.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example27.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ADO_Example||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|d:\\ltwindows\\example2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|solutionrelative:example2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example00.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example00.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|d:\\ltwindows\\example2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|solutionrelative:example2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\level3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\level3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|d:\\ltwindows\\example2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|solutionrelative:example2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltwindows\\example\\example21.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example21.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\example11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltwindows\\example\\example21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example19.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example19.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltwindows\\example\\example21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example18.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example18.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example17.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example17.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\example10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\example09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\example07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\example05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example05.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example05.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example05.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example05.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example11.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example11.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example11.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example11.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example01.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example01.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example01.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example01.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example00.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example00.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example00.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example00.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example15.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example15.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example22.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example22.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example09.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example09.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example10.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example10.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example10.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example10.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example08.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example08.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example22.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example22.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example20.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example20.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example20.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example20.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example19.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example19.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example19.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example19.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example17.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example17.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\example27.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example27.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\level2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\level2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\level3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\level3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\level3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\level3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\example27.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example27.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|d:\\ltw\\ltwindows\\example\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\example26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|D:\\LTW\\LTWindows\\example\\example25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AAD1758-1F92-423F-BB61-29AA7482613A}|Example\\Example.csproj|solutionrelative:example\\example25.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AB8FF9BB-CF1A-40F4-8AF9-3914915582D3}|Example2\\Example2.csproj|d:\\ltwindows\\example2\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -274,816 +60,159 @@
       "DocumentGroups": [
         {
           "DockedWidth": 141,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Example28.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example28.cs",
-              "RelativeDocumentMoniker": "Example\\Example28.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example28.cs",
-              "RelativeToolTip": "Example\\Example28.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAAwKMAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LTWindows\\Example\\Program.cs",
+              "RelativeDocumentMoniker": "Example\\Program.cs",
+              "ToolTip": "D:\\LTWindows\\Example\\Program.cs",
+              "RelativeToolTip": "Example\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T00:49:50.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Example24.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example24.cs",
-              "RelativeDocumentMoniker": "Example\\Example24.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example24.cs",
-              "RelativeToolTip": "Example\\Example24.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:52:39.527Z",
+              "WhenOpened": "2026-01-09T03:34:35.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Example23.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example23.cs",
-              "RelativeDocumentMoniker": "Example\\Example23.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example23.cs",
-              "RelativeToolTip": "Example\\Example23.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\LTWindows\\Example2\\Form1.cs",
+              "RelativeDocumentMoniker": "Example2\\Form1.cs",
+              "ToolTip": "D:\\LTWindows\\Example2\\Form1.cs",
+              "RelativeToolTip": "Example2\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:52:33.812Z",
+              "WhenOpened": "2026-01-09T03:33:05.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Example22.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example22.cs",
-              "RelativeDocumentMoniker": "Example\\Example22.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example22.cs",
-              "RelativeToolTip": "Example\\Example22.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwAgAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LTWindows\\Example2\\Program.cs",
+              "RelativeDocumentMoniker": "Example2\\Program.cs",
+              "ToolTip": "D:\\LTWindows\\Example2\\Program.cs",
+              "RelativeToolTip": "Example2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:52:28.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Level3.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Level3.cs",
-              "RelativeDocumentMoniker": "Example\\Level3.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Level3.cs",
-              "RelativeToolTip": "Example\\Level3.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T00:43:20.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Example25.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example25.cs",
-              "RelativeDocumentMoniker": "Example\\Example25.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example25.cs",
-              "RelativeToolTip": "Example\\Example25.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:07:46.133Z",
+              "WhenOpened": "2026-01-09T03:33:01.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Example27.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example27.cs",
-              "RelativeDocumentMoniker": "Example\\Example27.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example27.cs",
-              "RelativeToolTip": "Example\\Example27.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:19:30.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Example26.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example26.cs",
-              "RelativeDocumentMoniker": "Example\\Example26.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example26.cs",
-              "RelativeToolTip": "Example\\Example26.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:07:35.396Z",
+              "Title": "ADO_Example",
+              "DocumentMoniker": "D:\\LTWindows\\Example2\\ADO_Example.csproj",
+              "RelativeDocumentMoniker": "Example2\\ADO_Example.csproj",
+              "ToolTip": "D:\\LTWindows\\Example2\\ADO_Example.csproj",
+              "RelativeToolTip": "Example2\\ADO_Example.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-09T03:32:54.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Example01.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example01.cs",
-              "RelativeDocumentMoniker": "Example\\Example01.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example01.cs [Design]",
-              "RelativeToolTip": "Example\\Example01.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T00:54:26.001Z",
-              "EditorCaption": " [Design]"
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\LTWindows\\Example2\\App.config",
+              "RelativeDocumentMoniker": "Example2\\App.config",
+              "ToolTip": "D:\\LTWindows\\Example2\\App.config",
+              "RelativeToolTip": "Example2\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-09T03:32:52.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Level2.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Level2.cs",
-              "RelativeDocumentMoniker": "Example\\Level2.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Level2.cs [Design]",
-              "RelativeToolTip": "Example\\Level2.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\LTWindows\\Example2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Example2\\Form1.Designer.cs",
+              "ToolTip": "D:\\LTWindows\\Example2\\Form1.Designer.cs",
+              "RelativeToolTip": "Example2\\Form1.Designer.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAiwJEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T03:55:40.807Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Level2.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Level2.cs",
-              "RelativeDocumentMoniker": "Example\\Level2.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Level2.cs",
-              "RelativeToolTip": "Example\\Level2.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAuwMAAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T00:42:09.84Z",
+              "WhenOpened": "2026-01-09T03:32:47.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Example00.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example00.cs",
-              "RelativeDocumentMoniker": "Example\\Example00.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example00.cs",
-              "RelativeToolTip": "Example\\Example00.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAAMAAAAAAAAAA==",
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\LTWindows\\Example2\\Menu.cs",
+              "RelativeDocumentMoniker": "Example2\\Menu.cs",
+              "ToolTip": "D:\\LTWindows\\Example2\\Menu.cs",
+              "RelativeToolTip": "Example2\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:49:08.465Z",
+              "WhenOpened": "2026-01-09T03:32:40.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\LTWindows\\Example2\\Menu.cs",
+              "RelativeDocumentMoniker": "Example2\\Menu.cs",
+              "ToolTip": "D:\\LTWindows\\Example2\\Menu.cs [Design]",
+              "RelativeToolTip": "Example2\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:32:27.446Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\LTWindows\\Example2\\Form1.cs",
+              "RelativeDocumentMoniker": "Example2\\Form1.cs",
+              "ToolTip": "D:\\LTWindows\\Example2\\Form1.cs [Design]",
+              "RelativeToolTip": "Example2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:31:35.291Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Example21.Designer.cs",
+              "DocumentMoniker": "D:\\LTWindows\\Example\\Example21.Designer.cs",
+              "RelativeDocumentMoniker": "Example\\Example21.Designer.cs",
+              "ToolTip": "D:\\LTWindows\\Example\\Example21.Designer.cs",
+              "RelativeToolTip": "Example\\Example21.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:20:02.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Example21.cs",
+              "DocumentMoniker": "D:\\LTWindows\\Example\\Example21.cs",
+              "RelativeDocumentMoniker": "Example\\Example21.cs",
+              "ToolTip": "D:\\LTWindows\\Example\\Example21.cs",
+              "RelativeToolTip": "Example\\Example21.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:19:57.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Example20.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example20.cs",
-              "RelativeDocumentMoniker": "Example\\Example20.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example20.cs",
-              "RelativeToolTip": "Example\\Example20.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:52:17.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Example11.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example11.cs",
-              "RelativeDocumentMoniker": "Example\\Example11.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example11.cs [Design]",
-              "RelativeToolTip": "Example\\Example11.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:43:43.601Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Example21.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example21.cs",
+              "Title": "Example21.cs [Design]",
+              "DocumentMoniker": "D:\\LTWindows\\Example\\Example21.cs",
               "RelativeDocumentMoniker": "Example\\Example21.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example21.cs",
-              "RelativeToolTip": "Example\\Example21.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\LTWindows\\Example\\Example21.cs [Design]",
+              "RelativeToolTip": "Example\\Example21.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:52:23.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Menu.cs",
-              "RelativeDocumentMoniker": "Example\\Menu.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Menu.cs",
-              "RelativeToolTip": "Example\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:07:12.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Example19.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example19.cs",
-              "RelativeDocumentMoniker": "Example\\Example19.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example19.cs",
-              "RelativeToolTip": "Example\\Example19.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:52:09.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Example18.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example18.cs",
-              "RelativeDocumentMoniker": "Example\\Example18.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example18.cs",
-              "RelativeToolTip": "Example\\Example18.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:52:05.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Example17.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example17.cs",
-              "RelativeDocumentMoniker": "Example\\Example17.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example17.cs",
-              "RelativeToolTip": "Example\\Example17.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:52:00.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Example16.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example16.cs",
-              "RelativeDocumentMoniker": "Example\\Example16.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example16.cs",
-              "RelativeToolTip": "Example\\Example16.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:51:53.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Example15.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example15.cs",
-              "RelativeDocumentMoniker": "Example\\Example15.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example15.cs",
-              "RelativeToolTip": "Example\\Example15.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:51:47.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Example14.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example14.cs",
-              "RelativeDocumentMoniker": "Example\\Example14.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example14.cs",
-              "RelativeToolTip": "Example\\Example14.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:51:43.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Example13.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example13.cs",
-              "RelativeDocumentMoniker": "Example\\Example13.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example13.cs",
-              "RelativeToolTip": "Example\\Example13.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:51:38.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Example12.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example12.cs",
-              "RelativeDocumentMoniker": "Example\\Example12.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example12.cs",
-              "RelativeToolTip": "Example\\Example12.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:51:32.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Example10.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example10.cs",
-              "RelativeDocumentMoniker": "Example\\Example10.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example10.cs",
-              "RelativeToolTip": "Example\\Example10.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:51:20.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Example09.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example09.cs",
-              "RelativeDocumentMoniker": "Example\\Example09.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example09.cs",
-              "RelativeToolTip": "Example\\Example09.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:51:13.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Example08.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example08.cs",
-              "RelativeDocumentMoniker": "Example\\Example08.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example08.cs",
-              "RelativeToolTip": "Example\\Example08.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:51:08.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Example07.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example07.cs",
-              "RelativeDocumentMoniker": "Example\\Example07.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example07.cs",
-              "RelativeToolTip": "Example\\Example07.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwCoAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:44:37.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Example06.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example06.cs",
-              "RelativeDocumentMoniker": "Example\\Example06.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example06.cs",
-              "RelativeToolTip": "Example\\Example06.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:50:56.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Example05.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example05.cs",
-              "RelativeDocumentMoniker": "Example\\Example05.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example05.cs",
-              "RelativeToolTip": "Example\\Example05.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:50:48.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Example03.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example03.cs",
-              "RelativeDocumentMoniker": "Example\\Example03.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example03.cs",
-              "RelativeToolTip": "Example\\Example03.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:50:41.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Example02.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example02.cs",
-              "RelativeDocumentMoniker": "Example\\Example02.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example02.cs",
-              "RelativeToolTip": "Example\\Example02.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowB4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:44:02.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Example01.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example01.cs",
-              "RelativeDocumentMoniker": "Example\\Example01.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example01.cs",
-              "RelativeToolTip": "Example\\Example01.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:50:10.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Example10.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example10.cs",
-              "RelativeDocumentMoniker": "Example\\Example10.cs",
-              "ToolTip": "D:\\LTWindows\\Example\\Example10.cs [Design]",
-              "RelativeToolTip": "..\\..\\LTWindows\\Example\\Example10.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:55:03.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Example09.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example09.cs",
-              "RelativeDocumentMoniker": "Example\\Example09.cs",
-              "ToolTip": "D:\\LTWindows\\Example\\Example09.cs [Design]",
-              "RelativeToolTip": "..\\..\\LTWindows\\Example\\Example09.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:54:57.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Example07.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example07.cs",
-              "RelativeDocumentMoniker": "Example\\Example07.cs",
-              "ToolTip": "D:\\LTWindows\\Example\\Example07.cs [Design]",
-              "RelativeToolTip": "..\\..\\LTWindows\\Example\\Example07.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:44:33.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Example05.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example05.cs",
-              "RelativeDocumentMoniker": "Example\\Example05.cs",
-              "ToolTip": "D:\\LTWindows\\Example\\Example05.cs [Design]",
-              "RelativeToolTip": "..\\..\\LTWindows\\Example\\Example05.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:44:29.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Example05.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example05.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example05.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example05.Designer.cs",
-              "RelativeToolTip": "Example\\Example05.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:44:27.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Example05.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example05.resx",
-              "RelativeDocumentMoniker": "Example\\Example05.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example05.resx",
-              "RelativeToolTip": "Example\\Example05.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:44:18.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Example11.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example11.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example11.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example11.Designer.cs",
-              "RelativeToolTip": "Example\\Example11.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:43:33.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Example11.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example11.resx",
-              "RelativeDocumentMoniker": "Example\\Example11.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example11.resx",
-              "RelativeToolTip": "Example\\Example11.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:43:32.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Example01.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example01.resx",
-              "RelativeDocumentMoniker": "Example\\Example01.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example01.resx",
-              "RelativeToolTip": "Example\\Example01.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:43:28.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Example01.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example01.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example01.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example01.Designer.cs",
-              "RelativeToolTip": "Example\\Example01.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:43:28.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Example00.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example00.resx",
-              "RelativeDocumentMoniker": "Example\\Example00.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example00.resx",
-              "RelativeToolTip": "Example\\Example00.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:43:16.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Example00.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example00.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example00.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example00.Designer.cs",
-              "RelativeToolTip": "Example\\Example00.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:43:14.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Example15.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example15.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example15.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example15.Designer.cs",
-              "RelativeToolTip": "Example\\Example15.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:43:11.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Example10.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example10.resx",
-              "RelativeDocumentMoniker": "Example\\Example10.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example10.resx",
-              "RelativeToolTip": "Example\\Example10.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:42:58.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Example10.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example10.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example10.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example10.Designer.cs",
-              "RelativeToolTip": "Example\\Example10.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:42:56.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Example09.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example09.resx",
-              "RelativeDocumentMoniker": "Example\\Example09.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example09.resx",
-              "RelativeToolTip": "Example\\Example09.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:42:54.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Example08.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example08.resx",
-              "RelativeDocumentMoniker": "Example\\Example08.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example08.resx",
-              "RelativeToolTip": "Example\\Example08.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:42:39.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Example22.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example22.resx",
-              "RelativeDocumentMoniker": "Example\\Example22.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example22.resx",
-              "RelativeToolTip": "Example\\Example22.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:42:36.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Example22.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example22.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example22.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example22.Designer.cs",
-              "RelativeToolTip": "Example\\Example22.Designer.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:42:35.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Example20.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example20.resx",
-              "RelativeDocumentMoniker": "Example\\Example20.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example20.resx",
-              "RelativeToolTip": "Example\\Example20.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:42:32.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "Example20.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example20.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example20.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example20.Designer.cs",
-              "RelativeToolTip": "Example\\Example20.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:42:31.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Example19.resx",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example19.resx",
-              "RelativeDocumentMoniker": "Example\\Example19.resx",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example19.resx",
-              "RelativeToolTip": "Example\\Example19.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-19T01:42:28.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Example19.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example19.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example19.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example19.Designer.cs",
-              "RelativeToolTip": "Example\\Example19.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:42:26.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Example17.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example17.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example17.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example17.Designer.cs",
-              "RelativeToolTip": "Example\\Example17.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:42:23.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Example27.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example27.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Example27.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Example27.Designer.cs",
-              "RelativeToolTip": "Example\\Example27.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:42:20.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Level2.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Level2.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Level2.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Level2.Designer.cs",
-              "RelativeToolTip": "Example\\Level2.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:42:14.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Level3.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Level3.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Level3.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Level3.Designer.cs",
-              "RelativeToolTip": "Example\\Level3.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:42:11.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Level3.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Level3.cs",
-              "RelativeDocumentMoniker": "Example\\Level3.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Level3.cs [Design]",
-              "RelativeToolTip": "Example\\Level3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:16:56.569Z",
+              "WhenOpened": "2026-01-09T03:19:47.583Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Example25.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example25.cs",
-              "RelativeDocumentMoniker": "Example\\Example25.cs",
-              "ToolTip": "D:\\LTwindows\\LTWindows\\Example\\Example25.cs [Design]",
-              "RelativeToolTip": "..\\..\\LTwindows\\LTWindows\\Example\\Example25.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:07:43.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Menu.cs",
-              "RelativeDocumentMoniker": "Example\\Menu.cs",
-              "ToolTip": "D:\\LTWindows\\Example\\Menu.cs [Design]",
-              "RelativeToolTip": "..\\..\\LTWindows\\Example\\Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:05:47.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Menu.Designer.cs",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Menu.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Menu.Designer.cs",
-              "ToolTip": "D:\\LTW\\LTWindows\\Example\\Menu.Designer.cs",
-              "RelativeToolTip": "Example\\Menu.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:19:43.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "Example27.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example27.cs",
-              "RelativeDocumentMoniker": "Example\\Example27.cs",
-              "ToolTip": "D:\\LTWindows\\Example\\Example27.cs [Design]",
-              "RelativeToolTip": "..\\..\\LTWindows\\Example\\Example27.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:19:59.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Example26.cs [Design]",
-              "DocumentMoniker": "D:\\LTW\\LTWindows\\Example\\Example26.cs",
-              "RelativeDocumentMoniker": "Example\\Example26.cs",
-              "ToolTip": "D:\\LTwindows\\LTWindows\\Example\\Example26.cs [Design]",
-              "RelativeToolTip": "..\\..\\LTwindows\\LTWindows\\Example\\Example26.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T04:07:32.148Z"
             }
           ]
         }

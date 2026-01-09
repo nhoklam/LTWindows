@@ -1,0 +1,9 @@
+D:\LTWindows\Example2\bin\Debug\Example2.exe.config
+D:\LTWindows\Example2\bin\Debug\Example2.exe
+D:\LTWindows\Example2\bin\Debug\Example2.pdb
+D:\LTWindows\Example2\obj\Debug\ADO_Example.csproj.AssemblyReference.cache
+D:\LTWindows\Example2\obj\Debug\Example2.Properties.Resources.resources
+D:\LTWindows\Example2\obj\Debug\ADO_Example.csproj.GenerateResource.cache
+D:\LTWindows\Example2\obj\Debug\ADO_Example.csproj.CoreCompileInputs.cache
+D:\LTWindows\Example2\obj\Debug\Example2.exe
+D:\LTWindows\Example2\obj\Debug\Example2.pdb
