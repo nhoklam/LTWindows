@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Example2
+namespace ADO_Example
 {
     public partial class Menu: Form
     {

@@ -1,4 +1,4 @@
-﻿namespace Example2
+﻿namespace ADO_Example
 {
     partial class Menu
     {
