@@ -17,28 +17,95 @@ namespace ADO_Example
         public FrmDashboard()
         {
             InitializeComponent();
-            DesignResponsiveDashboard(); // Dùng hàm thiết kế mới
-            LoadRealData();
+            DesignResponsiveDashboard();
+            LoadRealData(); // Tải số liệu
         }
 
-        // --- HÀM THIẾT KẾ MỚI (DÙNG TABLE LAYOUT) ---
+        // --- 1. LOGIC TẢI DỮ LIỆU (ĐÃ SỬA LỖI) ---
+        private void LoadRealData()
+        {
+            // Tách riêng từng mục trong try-catch để lỗi 1 cái không ảnh hưởng cái khác
+
+            // 1. Tổng Tòa Nhà
+            try
+            {
+                DataTable dt = DatabaseHelper.GetData("SELECT COUNT(*) FROM Buildings");
+                if (dt.Rows.Count > 0) lblBuildingCount.Text = dt.Rows[0][0].ToString();
+            }
+            catch { lblBuildingCount.Text = "0"; }
+
+            // 2. Tổng Khách Hàng
+            try
+            {
+                DataTable dt = DatabaseHelper.GetData("SELECT COUNT(*) FROM Customers");
+                if (dt.Rows.Count > 0) lblCustomerCount.Text = dt.Rows[0][0].ToString();
+            }
+            catch { lblCustomerCount.Text = "0"; }
+
+            // 3. Tổng Doanh Thu (Sửa lỗi quan trọng: Value -> Price)
+            try
+            {
+                // Dùng ISNULL để tránh lỗi khi chưa có hợp đồng nào
+                string query = "SELECT SUM(Price) FROM Contracts";
+                DataTable dt = DatabaseHelper.GetData(query);
+
+                if (dt.Rows.Count > 0 && dt.Rows[0][0] != DBNull.Value)
+                {
+                    decimal rev = Convert.ToDecimal(dt.Rows[0][0]);
+                    lblRevenue.Text = rev.ToString("N0"); // Format tiền tệ
+                }
+                else
+                {
+                    lblRevenue.Text = "0";
+                }
+            }
+            catch { lblRevenue.Text = "0"; }
+
+            // 4. Tổng Hợp Đồng
+            try
+            {
+                DataTable dt = DatabaseHelper.GetData("SELECT COUNT(*) FROM Contracts");
+                if (dt.Rows.Count > 0) lblContractCount.Text = dt.Rows[0][0].ToString();
+            }
+            catch { lblContractCount.Text = "0"; }
+        }
+
+        private void LoadRecentContracts(DataGridView dgv)
+        {
+            try
+            {
+                // Sửa lỗi: Phải JOIN bảng Customers để lấy tên khách
+                string query = @"SELECT TOP 5 
+                                    c.Name AS [Khách Hàng], 
+                                    ct.ContractCode AS [Mã HĐ], 
+                                    ct.Status AS [Trạng Thái] 
+                                 FROM Contracts ct
+                                 JOIN Customers c ON ct.CustomerId = c.Id
+                                 ORDER BY ct.Id DESC";
+
+                DataTable dt = DatabaseHelper.GetData(query);
+                dgv.DataSource = dt;
+            }
+            catch { }
+        }
+
+        // --- 2. GIAO DIỆN (GIỮ NGUYÊN) ---
         private void DesignResponsiveDashboard()
         {
             this.BackColor = Color.FromArgb(245, 247, 250);
-            this.Padding = new Padding(20); // Khoảng cách với viền form
+            this.Padding = new Padding(20);
 
-            // 1. LAYOUT CHÍNH (Chia làm 3 dòng: Header, Cards, Body)
+            // Layout Chính
             TableLayoutPanel tlpMain = new TableLayoutPanel();
             tlpMain.Dock = DockStyle.Fill;
             tlpMain.ColumnCount = 1;
             tlpMain.RowCount = 3;
-            // Dòng 1: Header (80px), Dòng 2: Cards (180px), Dòng 3: Còn lại
             tlpMain.RowStyles.Add(new RowStyle(SizeType.Absolute, 80F));
             tlpMain.RowStyles.Add(new RowStyle(SizeType.Absolute, 180F));
             tlpMain.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             this.Controls.Add(tlpMain);
 
-            // --- A. HEADER (Dòng 1) ---
+            // A. Header
             Panel pnlHeader = new Panel { Dock = DockStyle.Fill };
             Label lblTitle = new Label
             {
@@ -60,44 +127,41 @@ namespace ADO_Example
             pnlHeader.Controls.Add(lblSub);
             tlpMain.Controls.Add(pnlHeader, 0, 0);
 
-            // --- B. CARDS (Dòng 2 - Chia 4 cột đều nhau) ---
+            // B. Cards
             TableLayoutPanel tlpCards = new TableLayoutPanel();
             tlpCards.Dock = DockStyle.Fill;
             tlpCards.ColumnCount = 4;
             tlpCards.RowCount = 1;
-            // Mỗi cột chiếm 25%
             tlpCards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tlpCards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tlpCards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
             tlpCards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
 
-            // Thêm 4 thẻ vào 4 cột (Kèm padding để tạo khe hở)
-            tlpCards.Controls.Add(CreateResponsiveCard("TÒA NHÀ", "...", "🏢", Color.FromArgb(108, 92, 231), ref lblBuildingCount), 0, 0);
-            tlpCards.Controls.Add(CreateResponsiveCard("KHÁCH HÀNG", "...", "👥", Color.FromArgb(253, 121, 168), ref lblCustomerCount), 1, 0);
-            tlpCards.Controls.Add(CreateResponsiveCard("DOANH THU", "...", "💰", Color.FromArgb(0, 184, 148), ref lblRevenue), 2, 0);
-            tlpCards.Controls.Add(CreateResponsiveCard("HỢP ĐỒNG", "...", "📝", Color.FromArgb(225, 112, 85), ref lblContractCount), 3, 0);
+            tlpCards.Controls.Add(CreateResponsiveCard("TÒA NHÀ", "0", "🏢", Color.FromArgb(108, 92, 231), ref lblBuildingCount), 0, 0);
+            tlpCards.Controls.Add(CreateResponsiveCard("KHÁCH HÀNG", "0", "👥", Color.FromArgb(253, 121, 168), ref lblCustomerCount), 1, 0);
+            tlpCards.Controls.Add(CreateResponsiveCard("DOANH THU", "0", "💰", Color.FromArgb(0, 184, 148), ref lblRevenue), 2, 0);
+            tlpCards.Controls.Add(CreateResponsiveCard("HỢP ĐỒNG", "0", "📝", Color.FromArgb(225, 112, 85), ref lblContractCount), 3, 0);
 
             tlpMain.Controls.Add(tlpCards, 0, 1);
 
-            // --- C. BODY (Dòng 3 - Chia 2 phần: Biểu đồ 65% - List 35%) ---
+            // C. Body (Chart + List)
             TableLayoutPanel tlpBody = new TableLayoutPanel();
             tlpBody.Dock = DockStyle.Fill;
             tlpBody.ColumnCount = 2;
             tlpBody.RowCount = 1;
-            tlpBody.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65F)); // Biểu đồ rộng hơn
+            tlpBody.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65F));
             tlpBody.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 35F));
-            tlpBody.Padding = new Padding(0, 20, 0, 0); // Cách bên trên 20px
+            tlpBody.Padding = new Padding(0, 20, 0, 0);
 
             // C.1 Biểu đồ
             Panel pnlChartContainer = new Panel { Dock = DockStyle.Fill, BackColor = Color.White, Padding = new Padding(10) };
             Chart revenueChart = CreateRevenueChart();
             revenueChart.Dock = DockStyle.Fill;
-            Label lblChartTitle = new Label { Text = "BIỂU ĐỒ DOANH THU", Font = new Font("Segoe UI", 11, FontStyle.Bold), Dock = DockStyle.Top, Height = 30, ForeColor = Color.DimGray };
+            Label lblChartTitle = new Label { Text = "BIỂU ĐỒ DOANH THU (Dự kiến)", Font = new Font("Segoe UI", 11, FontStyle.Bold), Dock = DockStyle.Top, Height = 30, ForeColor = Color.DimGray };
             pnlChartContainer.Controls.Add(revenueChart);
             pnlChartContainer.Controls.Add(lblChartTitle);
 
-            // Wrapper để tạo khoảng cách
-            Panel pnlChartWrapper = new Panel { Dock = DockStyle.Fill, Padding = new Padding(0, 0, 10, 0) }; // Hở bên phải 10px
+            Panel pnlChartWrapper = new Panel { Dock = DockStyle.Fill, Padding = new Padding(0, 0, 10, 0) };
             pnlChartWrapper.Controls.Add(pnlChartContainer);
             tlpBody.Controls.Add(pnlChartWrapper, 0, 0);
 
@@ -106,38 +170,33 @@ namespace ADO_Example
             DataGridView dgvRecent = new DataGridView();
             StyleRecentGrid(dgvRecent);
             dgvRecent.Dock = DockStyle.Fill;
-            LoadRecentContracts(dgvRecent);
+            LoadRecentContracts(dgvRecent); // Gọi hàm tải list
             Label lblListTitle = new Label { Text = "HỢP ĐỒNG MỚI", Font = new Font("Segoe UI", 11, FontStyle.Bold), Dock = DockStyle.Top, Height = 30, ForeColor = Color.DimGray };
             pnlListContainer.Controls.Add(dgvRecent);
             pnlListContainer.Controls.Add(lblListTitle);
 
-            // Wrapper
-            Panel pnlListWrapper = new Panel { Dock = DockStyle.Fill, Padding = new Padding(10, 0, 0, 0) }; // Hở bên trái 10px
+            Panel pnlListWrapper = new Panel { Dock = DockStyle.Fill, Padding = new Padding(10, 0, 0, 0) };
             pnlListWrapper.Controls.Add(pnlListContainer);
             tlpBody.Controls.Add(pnlListWrapper, 1, 0);
 
             tlpMain.Controls.Add(tlpBody, 0, 2);
         }
 
-        // --- HÀM TẠO THẺ CARD RESPONSIVE ---
         private Panel CreateResponsiveCard(string title, string value, string icon, Color bgColor, ref Label lblOutput)
         {
-            // Panel bao ngoài để tạo margin (khoảng cách giữa các thẻ)
             Panel container = new Panel { Dock = DockStyle.Fill, Padding = new Padding(5) };
-
-            // Panel nội dung chính (Màu nền)
             Panel pnlContent = new Panel { Dock = DockStyle.Fill, BackColor = bgColor };
 
             Label lblIcon = new Label
             {
                 Text = icon,
                 Font = new Font("Segoe UI", 45),
-                ForeColor = Color.FromArgb(60, 255, 255, 255), // Mờ
+                ForeColor = Color.FromArgb(60, 255, 255, 255),
                 AutoSize = true,
                 BackColor = Color.Transparent,
-                Anchor = AnchorStyles.Top | AnchorStyles.Right // Neo góc phải
+                Anchor = AnchorStyles.Top | AnchorStyles.Right
             };
-            lblIcon.Location = new Point(pnlContent.Width - 100, 10); // Vị trí tương đối
+            lblIcon.Location = new Point(pnlContent.Width - 100, 10);
 
             Label lblTitle = new Label
             {
@@ -157,15 +216,12 @@ namespace ADO_Example
             pnlContent.Controls.Add(lblIcon);
             pnlContent.Controls.Add(lblTitle);
             pnlContent.Controls.Add(lblOutput);
-
-            // Xử lý sự kiện Resize để Icon luôn nằm góc phải
             pnlContent.Resize += (s, e) => { lblIcon.Left = pnlContent.Width - lblIcon.Width - 10; };
 
             container.Controls.Add(pnlContent);
             return container;
         }
 
-        // --- CÁC HÀM LOGIC (GIỮ NGUYÊN) ---
         private Chart CreateRevenueChart()
         {
             Chart chart = new Chart();
@@ -212,39 +268,6 @@ namespace ADO_Example
             dgv.AllowUserToAddRows = false;
             dgv.ReadOnly = true;
             dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-        }
-
-        private void LoadRealData()
-        {
-            try
-            {
-                DataTable dt1 = DatabaseHelper.GetData("SELECT COUNT(*) FROM Buildings");
-                if (dt1.Rows.Count > 0) lblBuildingCount.Text = dt1.Rows[0][0].ToString();
-
-                DataTable dt2 = DatabaseHelper.GetData("SELECT COUNT(*) FROM Customers");
-                if (dt2.Rows.Count > 0) lblCustomerCount.Text = dt2.Rows[0][0].ToString();
-
-                DataTable dt3 = DatabaseHelper.GetData("SELECT SUM(Value) FROM Contracts");
-                if (dt3.Rows.Count > 0 && dt3.Rows[0][0] != DBNull.Value)
-                    lblRevenue.Text = Convert.ToDecimal(dt3.Rows[0][0]).ToString("N0");
-                else
-                    lblRevenue.Text = "0";
-
-                DataTable dt4 = DatabaseHelper.GetData("SELECT COUNT(*) FROM Contracts");
-                if (dt4.Rows.Count > 0) lblContractCount.Text = dt4.Rows[0][0].ToString();
-            }
-            catch { lblBuildingCount.Text = "-"; }
-        }
-
-        private void LoadRecentContracts(DataGridView dgv)
-        {
-            try
-            {
-                string query = "SELECT TOP 5 CustomerName AS [Khách], ContractCode AS [Mã HĐ], Status AS [Trạng Thái] FROM Contracts ORDER BY Id DESC";
-                DataTable dt = DatabaseHelper.GetData(query);
-                dgv.DataSource = dt;
-            }
-            catch { }
         }
     }
 }

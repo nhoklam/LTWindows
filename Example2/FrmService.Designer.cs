@@ -1,16 +1,9 @@
 ﻿namespace ADO_Example
 {
-    partial class FrmRoom
+    partial class FrmService
     {
         private System.ComponentModel.IContainer components = null;
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null)) components.Dispose();
-            base.Dispose(disposing);
-        }
-
-        #region Windows Form Designer generated code
+        protected override void Dispose(bool disposing) { if (disposing && (components != null)) components.Dispose(); base.Dispose(disposing); }
 
         private void InitializeComponent()
         {
@@ -23,12 +16,9 @@
 
             // Inputs
             this.lblID = new System.Windows.Forms.Label(); this.txtID = new System.Windows.Forms.TextBox(); this.lineID = new System.Windows.Forms.Panel();
-            this.lblBuilding = new System.Windows.Forms.Label(); this.cbbBuilding = new System.Windows.Forms.ComboBox(); // ComboBox
             this.lblName = new System.Windows.Forms.Label(); this.txtName = new System.Windows.Forms.TextBox(); this.lineName = new System.Windows.Forms.Panel();
-            this.lblFloor = new System.Windows.Forms.Label(); this.txtFloor = new System.Windows.Forms.TextBox(); this.lineFloor = new System.Windows.Forms.Panel();
-            this.lblArea = new System.Windows.Forms.Label(); this.txtArea = new System.Windows.Forms.TextBox(); this.lineArea = new System.Windows.Forms.Panel();
             this.lblPrice = new System.Windows.Forms.Label(); this.txtPrice = new System.Windows.Forms.TextBox(); this.linePrice = new System.Windows.Forms.Panel();
-            this.lblStatus = new System.Windows.Forms.Label(); this.cbbStatus = new System.Windows.Forms.ComboBox(); // ComboBox
+            this.lblUnit = new System.Windows.Forms.Label(); this.txtUnit = new System.Windows.Forms.TextBox(); this.lineUnit = new System.Windows.Forms.Panel();
 
             // Buttons
             this.btnAdd = new System.Windows.Forms.Button();
@@ -36,25 +26,23 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
 
-            // List Panel
+            // List
             this.grpList = new System.Windows.Forms.Panel();
             this.lblListTitle = new System.Windows.Forms.Label();
             this.lblSearch = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lineSearch = new System.Windows.Forms.Panel();
-            this.dgvRoom = new System.Windows.Forms.DataGridView();
             this.pnlGridWrapper = new System.Windows.Forms.Panel();
+            this.dgvService = new System.Windows.Forms.DataGridView();
 
             this.pnlMain.SuspendLayout();
             this.grpInput.SuspendLayout();
             this.grpList.SuspendLayout();
             this.pnlGridWrapper.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRoom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvService)).BeginInit();
             this.SuspendLayout();
 
-            // 
-            // pnlMain
-            // 
+            // PnlMain
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.BackColor = System.Drawing.Color.FromArgb(242, 245, 250);
             this.pnlMain.Padding = new System.Windows.Forms.Padding(20);
@@ -62,70 +50,37 @@
             this.pnlMain.Controls.Add(this.grpInput);
 
             // 
-            // --- CARD 1: INPUT ---
+            // --- CARD 1: INPUT (SỬA CHIỀU CAO TẠI ĐÂY) ---
             // 
             this.grpInput.Dock = System.Windows.Forms.DockStyle.Top;
-            this.grpInput.Height = 280; // Cao hơn FrmBuilding chút vì có nhiều dòng hơn
+            this.grpInput.Height = 290; // Tăng lên 290 cho thoáng
             this.grpInput.BackColor = System.Drawing.Color.White;
             this.grpInput.Margin = new System.Windows.Forms.Padding(0, 0, 0, 20);
 
-            this.lblTitleInput.Text = "THÔNG TIN MẶT BẰNG";
+            this.lblTitleInput.Text = "DANH MỤC DỊCH VỤ";
             this.lblTitleInput.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.lblTitleInput.ForeColor = System.Drawing.Color.FromArgb(24, 30, 54);
             this.lblTitleInput.Location = new System.Drawing.Point(25, 20);
             this.lblTitleInput.AutoSize = true;
             this.grpInput.Controls.Add(this.lblTitleInput);
 
-            // Row 1: ID, Building, Name, Floor
-            SetupInput(this.grpInput, lblID, txtID, lineID, "Mã Phòng (Auto)", 30, 70, 120);
+            // Row 1 (Y=70)
+            SetupInput(this.grpInput, lblID, txtID, lineID, "Mã DV", 30, 70, 100);
             this.txtID.Enabled = false; this.txtID.BackColor = System.Drawing.Color.White;
 
-            // ComboBox Building (Custom Style)
-            this.lblBuilding.Text = "Thuộc Tòa Nhà";
-            this.lblBuilding.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblBuilding.ForeColor = System.Drawing.Color.Gray;
-            this.lblBuilding.Location = new System.Drawing.Point(180, 70);
-            this.lblBuilding.AutoSize = true;
-            this.grpInput.Controls.Add(this.lblBuilding);
+            SetupInput(this.grpInput, lblName, txtName, lineName, "Tên Dịch Vụ", 160, 70, 350);
 
-            this.cbbBuilding.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.cbbBuilding.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbbBuilding.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cbbBuilding.Location = new System.Drawing.Point(180, 92);
-            this.cbbBuilding.Size = new System.Drawing.Size(300, 30);
-            this.grpInput.Controls.Add(this.cbbBuilding);
+            // Row 2 (Y=140)
+            SetupInput(this.grpInput, lblPrice, txtPrice, linePrice, "Đơn Giá (VNĐ)", 30, 140, 200);
+            SetupInput(this.grpInput, lblUnit, txtUnit, lineUnit, "Đơn Vị Tính (Lần/Tháng/Kwh)", 260, 140, 250);
 
-            SetupInput(this.grpInput, lblName, txtName, lineName, "Số Phòng / Mã", 510, 70, 200);
-            SetupInput(this.grpInput, lblFloor, txtFloor, lineFloor, "Tầng", 740, 70, 100);
-
-            // Row 2: Area, Price, Status
-            SetupInput(this.grpInput, lblArea, txtArea, lineArea, "Diện Tích (m2)", 30, 140, 120);
-            SetupInput(this.grpInput, lblPrice, txtPrice, linePrice, "Giá Thuê ($)", 180, 140, 250);
-
-            // ComboBox Status (Custom Style)
-            this.lblStatus.Text = "Trạng Thái";
-            this.lblStatus.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblStatus.ForeColor = System.Drawing.Color.Gray;
-            this.lblStatus.Location = new System.Drawing.Point(460, 140);
-            this.lblStatus.AutoSize = true;
-            this.grpInput.Controls.Add(this.lblStatus);
-
-            this.cbbStatus.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.cbbStatus.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbbStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cbbStatus.Location = new System.Drawing.Point(460, 162);
-            this.cbbStatus.Size = new System.Drawing.Size(250, 30);
-            this.cbbStatus.Items.AddRange(new object[] { "Còn trống", "Đã thuê", "Đang bảo trì" });
-            this.grpInput.Controls.Add(this.cbbStatus);
-
-            // Buttons
-            int btnY = 220;
-            SetupButton(this.grpInput, btnAdd, "THÊM", System.Drawing.Color.FromArgb(0, 122, 204), 30, btnY);
+            // Buttons (SỬA VỊ TRÍ NÚT TẠI ĐÂY)
+            int btnY = 220; // Dời xuống 220 để không đè lên ô nhập liệu
+            SetupButton(this.grpInput, btnAdd, "THÊM DV", System.Drawing.Color.FromArgb(0, 122, 204), 30, btnY);
             SetupButton(this.grpInput, btnEdit, "CẬP NHẬT", System.Drawing.Color.FromArgb(255, 193, 7), 160, btnY);
             SetupButton(this.grpInput, btnDelete, "XÓA", System.Drawing.Color.FromArgb(220, 53, 69), 290, btnY);
             SetupButton(this.grpInput, btnClear, "LÀM MỚI", System.Drawing.Color.Gray, 420, btnY);
 
-            // Events
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
@@ -139,14 +94,14 @@
             this.grpList.Padding = new System.Windows.Forms.Padding(20);
             this.grpList.BringToFront();
 
-            this.lblListTitle.Text = "DANH SÁCH MẶT BẰNG";
+            this.lblListTitle.Text = "BẢNG GIÁ DỊCH VỤ HIỆN HÀNH";
             this.lblListTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblListTitle.ForeColor = System.Drawing.Color.FromArgb(24, 30, 54);
             this.lblListTitle.Location = new System.Drawing.Point(20, 15);
             this.lblListTitle.AutoSize = true;
             this.grpList.Controls.Add(this.lblListTitle);
 
-            // Search
+            // Search Bar (Bổ sung thêm)
             this.lblSearch.Text = "🔍 Tìm kiếm:";
             this.lblSearch.AutoSize = true;
             this.lblSearch.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -171,57 +126,54 @@
             this.pnlGridWrapper.Padding = new System.Windows.Forms.Padding(0, 40, 0, 0);
             this.grpList.Controls.Add(this.pnlGridWrapper);
 
-            // DataGridView Style (Đồng bộ FrmBuilding)
-            this.dgvRoom.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvRoom.BackgroundColor = System.Drawing.Color.White;
-            this.dgvRoom.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvRoom.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvRoom.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgvRoom.RowHeadersVisible = false;
-            this.dgvRoom.EnableHeadersVisualStyles = false;
-            this.dgvRoom.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvRoom.AllowUserToAddRows = false;
-            this.dgvRoom.ReadOnly = true;
+            // Grid Style
+            this.dgvService.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvService.BackgroundColor = System.Drawing.Color.White;
+            this.dgvService.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvService.RowHeadersVisible = false;
+            this.dgvService.EnableHeadersVisualStyles = false;
+            this.dgvService.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvService.AllowUserToAddRows = false;
+            this.dgvService.ReadOnly = true;
 
-            // Header Style
             headerStyle.BackColor = System.Drawing.Color.FromArgb(24, 30, 54);
             headerStyle.ForeColor = System.Drawing.Color.White;
             headerStyle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             headerStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             headerStyle.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.dgvRoom.ColumnHeadersDefaultCellStyle = headerStyle;
-            this.dgvRoom.ColumnHeadersHeight = 50;
-            this.dgvRoom.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgvService.ColumnHeadersDefaultCellStyle = headerStyle;
+            this.dgvService.ColumnHeadersHeight = 50;
+            this.dgvService.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
 
-            // Row Style
             rowStyle.BackColor = System.Drawing.Color.White;
             rowStyle.ForeColor = System.Drawing.Color.FromArgb(64, 64, 64);
             rowStyle.Font = new System.Drawing.Font("Segoe UI", 10F);
+            // Sửa màu chọn cho dễ nhìn
             rowStyle.SelectionBackColor = System.Drawing.Color.FromArgb(24, 161, 251);
             rowStyle.SelectionForeColor = System.Drawing.Color.White;
             rowStyle.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.dgvRoom.DefaultCellStyle = rowStyle;
-            this.dgvRoom.RowTemplate.Height = 45;
-            this.dgvRoom.GridColor = System.Drawing.Color.WhiteSmoke;
+            this.dgvService.DefaultCellStyle = rowStyle;
+            this.dgvService.RowTemplate.Height = 45;
+            this.dgvService.GridColor = System.Drawing.Color.WhiteSmoke;
+            this.dgvService.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvService_CellClick);
 
-            this.dgvRoom.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvRoom_CellClick);
-            this.pnlGridWrapper.Controls.Add(this.dgvRoom);
+            this.pnlGridWrapper.Controls.Add(this.dgvService);
 
-            // Form Main
+            // Form
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 650);
             this.Controls.Add(this.pnlMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmRoom";
-            this.Text = "FrmRoom";
+            this.Name = "FrmService";
+            this.Text = "FrmService";
             this.pnlMain.ResumeLayout(false);
             this.grpInput.ResumeLayout(false);
             this.grpInput.PerformLayout();
             this.grpList.ResumeLayout(false);
             this.grpList.PerformLayout();
             this.pnlGridWrapper.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRoom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvService)).EndInit();
             this.ResumeLayout(false);
         }
 
@@ -240,19 +192,12 @@
             b.Size = new System.Drawing.Size(120, 40); b.Location = new System.Drawing.Point(x, y); b.Cursor = System.Windows.Forms.Cursors.Hand; p.Controls.Add(b);
         }
 
-        #endregion
-
         private System.Windows.Forms.Panel pnlMain, grpInput, grpList, pnlGridWrapper;
         private System.Windows.Forms.Label lblTitleInput, lblListTitle, lblSearch;
-        private System.Windows.Forms.TextBox txtSearch;
-        private System.Windows.Forms.Panel lineSearch;
-        private System.Windows.Forms.DataGridView dgvRoom;
-
-        private System.Windows.Forms.Label lblID, lblBuilding, lblName, lblFloor, lblArea, lblPrice, lblStatus;
-        private System.Windows.Forms.TextBox txtID, txtName, txtFloor, txtArea, txtPrice;
-        private System.Windows.Forms.ComboBox cbbBuilding, cbbStatus;
-        private System.Windows.Forms.Panel lineID, lineName, lineFloor, lineArea, linePrice;
-
+        private System.Windows.Forms.DataGridView dgvService;
+        private System.Windows.Forms.Label lblID, lblName, lblPrice, lblUnit;
+        private System.Windows.Forms.TextBox txtID, txtName, txtPrice, txtUnit, txtSearch;
+        private System.Windows.Forms.Panel lineID, lineName, linePrice, lineUnit, lineSearch;
         private System.Windows.Forms.Button btnAdd, btnEdit, btnDelete, btnClear;
     }
 }

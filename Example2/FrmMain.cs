@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace ADO_Example // Đảm bảo namespace đúng
+namespace ADO_Example
 {
     public partial class FrmMain : Form
     {
@@ -12,21 +12,21 @@ namespace ADO_Example // Đảm bảo namespace đúng
         private Panel leftBorderBtn;
         private Form currentChildForm;
 
-        // --- 2. BẢNG MÀU CHUẨN (Modern Palette) ---
+        // --- 2. BẢNG MÀU CHUẨN (Theme Steinway: Sang trọng & Hiện đại) ---
         private struct ThemeColor
         {
-            public static Color Primary = Color.FromArgb(24, 30, 54); // Màu nền Menu (Dark Navy)
-            public static Color Darker = Color.FromArgb(15, 20, 40);  // Màu nền Logo (Đậm hơn)
-            public static Color ActiveBg = Color.FromArgb(40, 45, 70); // Màu nền nút khi chọn
-            public static Color TextActive = Color.White;
+            public static Color Primary = Color.FromArgb(24, 30, 54); // Nền Menu
+            public static Color Darker = Color.FromArgb(15, 20, 40);  // Nền Logo
+            public static Color ActiveBg = Color.FromArgb(40, 45, 70); // Nền nút khi chọn
             public static Color TextInactive = Color.DarkGray;
 
             // Màu highlight cho từng mục (Pastel Neon)
-            public static Color Color1 = Color.FromArgb(172, 126, 241);
-            public static Color Color2 = Color.FromArgb(249, 118, 176);
-            public static Color Color3 = Color.FromArgb(253, 138, 114);
-            public static Color Color4 = Color.FromArgb(95, 77, 221);
-            public static Color Color5 = Color.FromArgb(24, 161, 251);
+            public static Color Color1 = Color.FromArgb(172, 126, 241); // Dashboard
+            public static Color Color2 = Color.FromArgb(249, 118, 176); // Building
+            public static Color Color3 = Color.FromArgb(253, 138, 114); // Room
+            public static Color Color4 = Color.FromArgb(95, 77, 221);  // Customer
+            public static Color Color5 = Color.FromArgb(24, 161, 251); // Contract
+            public static Color Color6 = Color.FromArgb(230, 126, 34); // Service (Màu Cam mới)
         }
 
         // --- 3. DLL KÉO THẢ FORM ---
@@ -39,9 +39,9 @@ namespace ADO_Example // Đảm bảo namespace đúng
         {
             InitializeComponent();
 
-            // Khởi tạo thanh highlight
+            // Khởi tạo thanh highlight bên trái
             leftBorderBtn = new Panel();
-            leftBorderBtn.Size = new Size(5, 55); // Thanh mảnh, tinh tế hơn
+            leftBorderBtn.Size = new Size(5, 55);
             panelMenu.Controls.Add(leftBorderBtn);
 
             // Cấu hình Form
@@ -61,10 +61,10 @@ namespace ADO_Example // Đảm bảo namespace đúng
 
                 // Style nút mới
                 currentBtn = (Button)senderBtn;
-                currentBtn.BackColor = ThemeColor.ActiveBg; // Nền sáng hơn một chút
-                currentBtn.ForeColor = color; // Chữ theo màu highlight
-                currentBtn.TextAlign = ContentAlignment.MiddleCenter; // Chữ ra giữa
-                currentBtn.Font = new Font("Segoe UI", 11F, FontStyle.Bold); // Chữ đậm hơn
+                currentBtn.BackColor = ThemeColor.ActiveBg;
+                currentBtn.ForeColor = color;
+                currentBtn.TextAlign = ContentAlignment.MiddleCenter;
+                currentBtn.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
 
                 // Di chuyển thanh màu
                 leftBorderBtn.BackColor = color;
@@ -74,7 +74,7 @@ namespace ADO_Example // Đảm bảo namespace đúng
 
                 // Đổi icon/panel trên TitleBar
                 iconCurrentChildForm.BackColor = color;
-                lblTitle.ForeColor = color; // Tiêu đề cùng màu highlight
+                lblTitle.ForeColor = color;
             }
         }
 
@@ -82,14 +82,14 @@ namespace ADO_Example // Đảm bảo namespace đúng
         {
             if (currentBtn != null)
             {
-                currentBtn.BackColor = ThemeColor.Primary; // Về màu gốc
+                currentBtn.BackColor = ThemeColor.Primary;
                 currentBtn.ForeColor = ThemeColor.TextInactive;
                 currentBtn.TextAlign = ContentAlignment.MiddleLeft;
                 currentBtn.Font = new Font("Segoe UI", 10.5F, FontStyle.Regular);
             }
         }
 
-        // --- 5. MỞ FORM CON (SPA) ---
+        // --- 5. MỞ FORM CON ---
         private void OpenChildForm(Form childForm)
         {
             if (currentChildForm != null) currentChildForm.Close();
@@ -124,26 +124,34 @@ namespace ADO_Example // Đảm bảo namespace đúng
         {
             ActivateButton(sender, ThemeColor.Color3);
             OpenChildForm(new FrmRoom());
-            lblTitle.Text = "QUẢN LÝ MẶT BẰNG";
+            lblTitle.Text = "QUẢN LÝ CĂN HỘ"; // Đổi tên cho sang
         }
 
         private void btnCustomer_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, ThemeColor.Color4);
             OpenChildForm(new FrmCustomer());
-            lblTitle.Text = "QUẢN LÝ KHÁCH HÀNG";
+            lblTitle.Text = "THÔNG TIN CƯ DÂN"; // Đổi tên cho sang
         }
 
         private void btnContract_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, ThemeColor.Color5);
             OpenChildForm(new FrmContract());
-            lblTitle.Text = "HỢP ĐỒNG & GIAO DỊCH";
+            lblTitle.Text = "HỢP ĐỒNG THUÊ";
+        }
+
+        // NÚT MỚI: DỊCH VỤ
+        private void btnService_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, ThemeColor.Color6);
+            OpenChildForm(new FrmService());
+            lblTitle.Text = "DỊCH VỤ & TIỆN ÍCH";
         }
 
         private void btnStaff_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, ThemeColor.Color2); // Tái sử dụng màu
+            ActivateButton(sender, ThemeColor.Color2);
             OpenChildForm(new FrmStaff());
             lblTitle.Text = "NHÂN SỰ & PHÂN QUYỀN";
         }
@@ -151,11 +159,11 @@ namespace ADO_Example // Đảm bảo namespace đúng
         private void btnSystem_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Color.Gray);
-            OpenChildForm(new FrmSystem());
+            OpenChildForm(new FrmSystem()); // Nếu chưa có form này thì comment lại
             lblTitle.Text = "CẤU HÌNH HỆ THỐNG";
         }
 
-        // --- 7. CÁC NÚT ĐIỀU HƯỚNG ---
+        // --- 7. CÁC NÚT ĐIỀU HƯỚNG CỬA SỔ ---
         private void btnHome_Click(object sender, EventArgs e)
         {
             if (currentChildForm != null) currentChildForm.Close();
@@ -167,7 +175,7 @@ namespace ADO_Example // Đảm bảo namespace đúng
             DisableButton();
             leftBorderBtn.Visible = false;
             iconCurrentChildForm.BackColor = Color.MediumPurple;
-            lblTitle.Text = "TRANG CHỦ";
+            lblTitle.Text = "SẢNH CHÍNH (LOBBY)";
             lblTitle.ForeColor = Color.Gainsboro;
         }
 
@@ -189,9 +197,10 @@ namespace ADO_Example // Đảm bảo namespace đúng
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            //new FrmLogin().ShowDialog(); // Uncomment dòng này nếu muốn mở lại form login
-            this.Close();
+            if (MessageBox.Show("Bạn muốn đăng xuất?", "Xác nhận", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Close(); // Hoặc mở lại form Login
+            }
         }
     }
 }

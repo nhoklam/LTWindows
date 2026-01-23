@@ -18,6 +18,8 @@
             this.btnLogout = new System.Windows.Forms.Button();
             this.btnSystem = new System.Windows.Forms.Button();
             this.btnStaff = new System.Windows.Forms.Button();
+            // Nút mới
+            this.btnService = new System.Windows.Forms.Button();
             this.btnContract = new System.Windows.Forms.Button();
             this.btnCustomer = new System.Windows.Forms.Button();
             this.btnRoom = new System.Windows.Forms.Button();
@@ -37,24 +39,31 @@
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
             this.SuspendLayout();
+
             // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.panelMenu.Controls.Add(this.btnLogout);
+            // Thứ tự Add rất quan trọng khi dùng Dock.Top (Add sau cùng sẽ nằm trên cùng)
+            this.panelMenu.Controls.Add(this.btnLogout);   // Bottom
+
+            // Nhóm Menu Chính (Dock Top - Add ngược từ dưới lên)
             this.panelMenu.Controls.Add(this.btnSystem);
             this.panelMenu.Controls.Add(this.btnStaff);
+            this.panelMenu.Controls.Add(this.btnService);  // <--- Nút Dịch Vụ Mới
             this.panelMenu.Controls.Add(this.btnContract);
             this.panelMenu.Controls.Add(this.btnCustomer);
             this.panelMenu.Controls.Add(this.btnRoom);
             this.panelMenu.Controls.Add(this.btnBuilding);
             this.panelMenu.Controls.Add(this.btnDashboard);
             this.panelMenu.Controls.Add(this.panelLogo);
+
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(260, 750);
             this.panelMenu.TabIndex = 0;
+
             // 
             // btnLogout
             // 
@@ -67,11 +76,12 @@
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.btnLogout.Size = new System.Drawing.Size(260, 60);
-            this.btnLogout.TabIndex = 8;
+            this.btnLogout.TabIndex = 9;
             this.btnLogout.Text = "Đăng Xuất";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogout.UseVisualStyleBackColor = true;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+
             // 
             // btnSystem
             // 
@@ -80,15 +90,16 @@
             this.btnSystem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSystem.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.btnSystem.ForeColor = System.Drawing.Color.DarkGray;
-            this.btnSystem.Location = new System.Drawing.Point(0, 485);
+            this.btnSystem.Location = new System.Drawing.Point(0, 540);
             this.btnSystem.Name = "btnSystem";
             this.btnSystem.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.btnSystem.Size = new System.Drawing.Size(260, 55);
-            this.btnSystem.TabIndex = 7;
+            this.btnSystem.TabIndex = 8;
             this.btnSystem.Text = "Cấu Hình Hệ Thống";
             this.btnSystem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSystem.UseVisualStyleBackColor = true;
             this.btnSystem.Click += new System.EventHandler(this.btnSystem_Click);
+
             // 
             // btnStaff
             // 
@@ -97,15 +108,34 @@
             this.btnStaff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStaff.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.btnStaff.ForeColor = System.Drawing.Color.DarkGray;
-            this.btnStaff.Location = new System.Drawing.Point(0, 430);
+            this.btnStaff.Location = new System.Drawing.Point(0, 485);
             this.btnStaff.Name = "btnStaff";
             this.btnStaff.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.btnStaff.Size = new System.Drawing.Size(260, 55);
-            this.btnStaff.TabIndex = 6;
+            this.btnStaff.TabIndex = 7;
             this.btnStaff.Text = "Nhân Sự & Phân Quyền";
             this.btnStaff.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnStaff.UseVisualStyleBackColor = true;
             this.btnStaff.Click += new System.EventHandler(this.btnStaff_Click);
+
+            // 
+            // btnService (NÚT MỚI)
+            // 
+            this.btnService.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnService.FlatAppearance.BorderSize = 0;
+            this.btnService.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnService.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.btnService.ForeColor = System.Drawing.Color.DarkGray;
+            this.btnService.Location = new System.Drawing.Point(0, 430);
+            this.btnService.Name = "btnService";
+            this.btnService.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btnService.Size = new System.Drawing.Size(260, 55);
+            this.btnService.TabIndex = 6;
+            this.btnService.Text = "Dịch Vụ & Tiện Ích";
+            this.btnService.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnService.UseVisualStyleBackColor = true;
+            this.btnService.Click += new System.EventHandler(this.btnService_Click);
+
             // 
             // btnContract
             // 
@@ -123,6 +153,7 @@
             this.btnContract.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnContract.UseVisualStyleBackColor = true;
             this.btnContract.Click += new System.EventHandler(this.btnContract_Click);
+
             // 
             // btnCustomer
             // 
@@ -136,10 +167,11 @@
             this.btnCustomer.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.btnCustomer.Size = new System.Drawing.Size(260, 55);
             this.btnCustomer.TabIndex = 4;
-            this.btnCustomer.Text = "Khách Hàng";
+            this.btnCustomer.Text = "Thông Tin Cư Dân";
             this.btnCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCustomer.UseVisualStyleBackColor = true;
             this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
+
             // 
             // btnRoom
             // 
@@ -153,10 +185,11 @@
             this.btnRoom.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.btnRoom.Size = new System.Drawing.Size(260, 55);
             this.btnRoom.TabIndex = 3;
-            this.btnRoom.Text = "Mặt Bằng & Căn Hộ";
+            this.btnRoom.Text = "Căn Hộ & Penthouse";
             this.btnRoom.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRoom.UseVisualStyleBackColor = true;
             this.btnRoom.Click += new System.EventHandler(this.btnRoom_Click);
+
             // 
             // btnBuilding
             // 
@@ -170,10 +203,11 @@
             this.btnBuilding.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.btnBuilding.Size = new System.Drawing.Size(260, 55);
             this.btnBuilding.TabIndex = 2;
-            this.btnBuilding.Text = "Quản Lý Tòa Nhà";
+            this.btnBuilding.Text = "Quản Lý Tòa Tháp";
             this.btnBuilding.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBuilding.UseVisualStyleBackColor = true;
             this.btnBuilding.Click += new System.EventHandler(this.btnBuilding_Click);
+
             // 
             // btnDashboard
             // 
@@ -191,6 +225,7 @@
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDashboard.UseVisualStyleBackColor = true;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+
             // 
             // panelLogo
             // 
@@ -205,26 +240,20 @@
             // 
             // lblSubLogo
             // 
-            this.lblSubLogo.AutoSize = true;
-            this.lblSubLogo.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblSubLogo.ForeColor = System.Drawing.Color.Gray;
-            this.lblSubLogo.Location = new System.Drawing.Point(55, 85);
-            this.lblSubLogo.Name = "lblSubLogo";
-            this.lblSubLogo.Size = new System.Drawing.Size(155, 20);
-            this.lblSubLogo.TabIndex = 1;
-            this.lblSubLogo.Text = "Building Management";
+       
             // 
-            // lblLogo
+            // lblLogo (Đã đổi tên)
             // 
             this.lblLogo.AutoSize = true;
-            this.lblLogo.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.Font = new System.Drawing.Font("Segoe UI", 9.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogo.ForeColor = System.Drawing.Color.White;
-            this.lblLogo.Location = new System.Drawing.Point(38, 45);
+            this.lblLogo.Location = new System.Drawing.Point(40, 45);
             this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(176, 38);
+            this.lblLogo.Size = new System.Drawing.Size(160, 38);
             this.lblLogo.TabIndex = 0;
-            this.lblLogo.Text = "LANDMARK";
+            this.lblLogo.Text = "QUẢN LÝ TÒA NHÀ";
             this.lblLogo.Click += new System.EventHandler(this.btnHome_Click);
+
             // 
             // panelTitleBar
             // 
@@ -240,6 +269,7 @@
             this.panelTitleBar.Size = new System.Drawing.Size(940, 80);
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
+
             // 
             // btnExit
             // 
@@ -255,6 +285,7 @@
             this.btnExit.Text = "✕";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+
             // 
             // btnMaximize
             // 
@@ -270,6 +301,7 @@
             this.btnMaximize.Text = "▢";
             this.btnMaximize.UseVisualStyleBackColor = true;
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
+
             // 
             // btnMinimize
             // 
@@ -285,6 +317,7 @@
             this.btnMinimize.Text = "—";
             this.btnMinimize.UseVisualStyleBackColor = true;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+
             // 
             // lblTitle
             // 
@@ -296,6 +329,7 @@
             this.lblTitle.Size = new System.Drawing.Size(152, 31);
             this.lblTitle.TabIndex = 1;
             this.lblTitle.Text = "TRANG CHỦ";
+
             // 
             // iconCurrentChildForm
             // 
@@ -304,6 +338,7 @@
             this.iconCurrentChildForm.Name = "iconCurrentChildForm";
             this.iconCurrentChildForm.Size = new System.Drawing.Size(35, 35);
             this.iconCurrentChildForm.TabIndex = 0;
+
             // 
             // panelDesktop
             // 
@@ -313,6 +348,7 @@
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Size = new System.Drawing.Size(940, 670);
             this.panelDesktop.TabIndex = 2;
+
             // 
             // FrmMain
             // 
@@ -325,7 +361,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Hệ Thống Quản Lý";
+            this.Text = "QUẢN LÝ TÒA NHÀ";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
@@ -342,6 +378,7 @@
         private System.Windows.Forms.Button btnRoom;
         private System.Windows.Forms.Button btnCustomer;
         private System.Windows.Forms.Button btnContract;
+        private System.Windows.Forms.Button btnService; // Nút mới
         private System.Windows.Forms.Button btnStaff;
         private System.Windows.Forms.Button btnSystem;
         private System.Windows.Forms.Button btnLogout;
