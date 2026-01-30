@@ -8,3 +8,15 @@ D:\LTWindows\Example2\obj\Debug\Example2.exe
 D:\LTWindows\Example2\obj\Debug\Example2.pdb
 D:\LTWindows\Example2\obj\Debug\Example2.exe.config
 D:\LTWindows\Example2\bin\Debug\Example2.pdb
+C:\Hoang lam\code\LTWindows\Example2\bin\Debug\Example2.exe.config
+C:\Hoang lam\code\LTWindows\Example2\bin\Debug\Example2.exe
+C:\Hoang lam\code\LTWindows\Example2\bin\Debug\Example2.pdb
+C:\Hoang lam\code\LTWindows\Example2\obj\Debug\ADO_Example.csproj.AssemblyReference.cache
+C:\Hoang lam\code\LTWindows\Example2\obj\Debug\Example2.Properties.Resources.resources
+C:\Hoang lam\code\LTWindows\Example2\obj\Debug\ADO_Example.csproj.GenerateResource.cache
+C:\Hoang lam\code\LTWindows\Example2\obj\Debug\ADO_Example.csproj.CoreCompileInputs.cache
+C:\Hoang lam\code\LTWindows\Example2\obj\Debug\Example2.exe
+C:\Hoang lam\code\LTWindows\Example2\obj\Debug\Example2.pdb
+C:\Hoang lam\code\LTWindows\Example2\bin\Debug\Newtonsoft.Json.dll
+C:\Hoang lam\code\LTWindows\Example2\bin\Debug\Newtonsoft.Json.xml
+C:\Hoang lam\code\LTWindows\Example2\obj\Debug\ADO_Exam.551A6FBE.Up2Date

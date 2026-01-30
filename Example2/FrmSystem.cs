@@ -16,6 +16,7 @@ namespace ADO_Example
         {
             try
             {
+                // Lấy tất cả tham số cấu hình
                 string query = "SELECT CfgKey, CfgValue, Description FROM SystemConfig";
                 dgvConfig.DataSource = DatabaseHelper.GetData(query);
 
@@ -25,14 +26,17 @@ namespace ADO_Example
                     dgvConfig.Columns["CfgKey"].Width = 150;
 
                     dgvConfig.Columns["Description"].HeaderText = "MÔ TẢ";
-                    dgvConfig.Columns["Description"].Width = 300;
+                    dgvConfig.Columns["Description"].Width = 350;
 
                     dgvConfig.Columns["CfgValue"].HeaderText = "GIÁ TRỊ HIỆN TẠI";
                     dgvConfig.Columns["CfgValue"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                     dgvConfig.Columns["CfgValue"].DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
                 }
             }
-            catch { }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi tải cấu hình: " + ex.Message);
+            }
         }
 
         private void dgvConfig_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -49,17 +53,23 @@ namespace ADO_Example
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            if (txtKey.Text == "") return;
+            if (txtKey.Text == "")
+            {
+                MessageBox.Show("Vui lòng chọn tham số cần sửa!");
+                return;
+            }
+
             try
             {
-                // Chỉ cho phép sửa CfgValue (Giá trị)
+                // Chỉ cho phép sửa CfgValue (Giá trị), Key và Description giữ nguyên
                 string query = $"UPDATE SystemConfig SET CfgValue = N'{txtValue.Text}' WHERE CfgKey = '{txtKey.Text}'";
                 DatabaseHelper.ExecuteQuery(query);
 
                 MessageBox.Show("Đã lưu cấu hình thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 LoadData();
+                txtValue.Focus(); // Giữ focus để sửa tiếp nếu cần
             }
-            catch (Exception ex) { MessageBox.Show("Lỗi: " + ex.Message); }
+            catch (Exception ex) { MessageBox.Show("Lỗi lưu dữ liệu: " + ex.Message); }
         }
     }
 }

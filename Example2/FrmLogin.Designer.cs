@@ -32,8 +32,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelRight = new System.Windows.Forms.Panel();
             this.lblSystemName = new System.Windows.Forms.Label();
-            this.lnkRegister = new System.Windows.Forms.LinkLabel();
-            this.label4 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.panelPass = new System.Windows.Forms.Panel();
             this.txtPass = new System.Windows.Forms.TextBox();
@@ -63,8 +61,8 @@
             // 
             // pictureBox1
             // 
-            // Lưu ý: Đảm bảo bạn có hình ảnh tên 'landmark_81_1' trong Resources hoặc đổi tên khác
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            // Lưu ý: Đảm bảo bạn vẫn có hình ảnh Login trong Resources
             this.pictureBox1.Image = global::Example2.Properties.Resources.Login;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -78,8 +76,7 @@
             // 
             this.panelRight.BackColor = System.Drawing.Color.White;
             this.panelRight.Controls.Add(this.lblSystemName);
-            this.panelRight.Controls.Add(this.lnkRegister);
-            this.panelRight.Controls.Add(this.label4);
+            // Đã xóa lnkRegister và label4 tại đây
             this.panelRight.Controls.Add(this.btnLogin);
             this.panelRight.Controls.Add(this.panelPass);
             this.panelRight.Controls.Add(this.panelUser);
@@ -100,32 +97,8 @@
             this.lblSystemName.Name = "lblSystemName";
             this.lblSystemName.Size = new System.Drawing.Size(450, 30);
             this.lblSystemName.TabIndex = 7;
-            this.lblSystemName.Text = "HỆ THỐNG QUẢN LÝ TÒA NHÀ";
+            this.lblSystemName.Text = "HỆ THỐNG QUẢN LÝ KTX"; // Đã sửa tên hệ thống
             this.lblSystemName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lnkRegister
-            // 
-            this.lnkRegister.AutoSize = true;
-            this.lnkRegister.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkRegister.LinkColor = System.Drawing.Color.MidnightBlue;
-            this.lnkRegister.Location = new System.Drawing.Point(270, 520);
-            this.lnkRegister.Name = "lnkRegister";
-            this.lnkRegister.Size = new System.Drawing.Size(122, 23);
-            this.lnkRegister.TabIndex = 6;
-            this.lnkRegister.TabStop = true;
-            this.lnkRegister.Text = "Đăng ký ngay";
-            this.lnkRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkRegister_LinkClicked);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(110, 520);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(154, 23);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Chưa có tài khoản?";
             // 
             // btnLogin
             // 
@@ -155,12 +128,11 @@
             // 
             // txtPass
             // 
-            // Tên biến này cần khớp với logic cũ: textBox1 hoặc sửa logic thành txtPass
             this.txtPass.BackColor = System.Drawing.Color.White;
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.Location = new System.Drawing.Point(5, 35);
-            this.txtPass.Name = "textBox1";
+            this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(290, 27);
             this.txtPass.TabIndex = 2;
             this.txtPass.UseSystemPasswordChar = true;
@@ -288,8 +260,7 @@
         private System.Windows.Forms.Panel linePass;
         private System.Windows.Forms.Label lblPass;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.LinkLabel lnkRegister;
+        // Đã xóa lnkRegister và label4 ở đây
         private System.Windows.Forms.Label lblSystemName;
     }
 }

@@ -9,10 +9,8 @@ namespace ADO_Example
         public FrmService()
         {
             InitializeComponent();
-
-            // Chặn lỗi DataGrid (phòng hờ format tiền tệ)
+            // Chặn lỗi DataGrid (phòng hờ format tiền tệ gây exception)
             this.dgvService.DataError += delegate { };
-
             LoadData();
         }
 
@@ -39,7 +37,7 @@ namespace ADO_Example
                 dgvService.Columns["Name"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
 
                 dgvService.Columns["Price"].HeaderText = "ĐƠN GIÁ";
-                dgvService.Columns["Price"].DefaultCellStyle.Format = "N0"; // 50,000
+                dgvService.Columns["Price"].DefaultCellStyle.Format = "N0"; // Format 50,000
                 dgvService.Columns["Price"].Width = 150;
 
                 dgvService.Columns["Unit"].HeaderText = "ĐƠN VỊ TÍNH";
@@ -54,14 +52,27 @@ namespace ADO_Example
                 var r = dgvService.Rows[e.RowIndex];
                 txtID.Text = r.Cells["Id"].Value.ToString();
                 txtName.Text = r.Cells["Name"].Value.ToString();
-                txtPrice.Text = string.Format("{0:0}", r.Cells["Price"].Value);
+
+                // Format lại text tiền tệ bỏ dấu phẩy để hiển thị trên textbox
+                if (r.Cells["Price"].Value != DBNull.Value)
+                {
+                    decimal price = Convert.ToDecimal(r.Cells["Price"].Value);
+                    txtPrice.Text = price.ToString("N0");
+                }
+
                 txtUnit.Text = r.Cells["Unit"].Value.ToString();
             }
         }
 
+        // --- CRUD ---
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (txtName.Text == "") return;
+            if (txtName.Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập tên dịch vụ!");
+                return;
+            }
+
             try
             {
                 string price = txtPrice.Text.Replace(",", "");
@@ -69,7 +80,8 @@ namespace ADO_Example
 
                 string query = $"INSERT INTO Services (Name, Price, Unit) VALUES (N'{txtName.Text}', {price}, N'{txtUnit.Text}')";
                 DatabaseHelper.ExecuteQuery(query);
-                LoadData(); ClearInput();
+                LoadData();
+                ClearInput();
             }
             catch (Exception ex) { MessageBox.Show("Lỗi thêm: " + ex.Message); }
         }
@@ -80,9 +92,13 @@ namespace ADO_Example
             try
             {
                 string price = txtPrice.Text.Replace(",", "");
+                if (string.IsNullOrEmpty(price)) price = "0";
+
                 string query = $"UPDATE Services SET Name=N'{txtName.Text}', Price={price}, Unit=N'{txtUnit.Text}' WHERE Id={txtID.Text}";
                 DatabaseHelper.ExecuteQuery(query);
-                LoadData(); ClearInput();
+                MessageBox.Show("Cập nhật thành công!");
+                LoadData();
+                ClearInput();
             }
             catch { MessageBox.Show("Lỗi sửa!"); }
         }
@@ -92,8 +108,11 @@ namespace ADO_Example
             if (txtID.Text == "") return;
             if (MessageBox.Show("Xóa dịch vụ này?", "Xác nhận", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
+                // Kiểm tra xem dịch vụ này đã được sử dụng trong hóa đơn chưa (nếu có bảng InvoiceDetails)
+                // Hiện tại chưa có bảng InvoiceDetails nên xóa thoải mái
                 DatabaseHelper.ExecuteQuery($"DELETE FROM Services WHERE Id={txtID.Text}");
-                LoadData(); ClearInput();
+                LoadData();
+                ClearInput();
             }
         }
 

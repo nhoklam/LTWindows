@@ -7,7 +7,7 @@ namespace ADO_Example
     public class DatabaseHelper
     {
         // Thay Server=. bằng Server=D20915 (lấy từ hình ảnh của bạn)
-        private static string strConnect = "Server=D20915;Database=QuanLyToaNha_DB;Integrated Security=True;TrustServerCertificate=True;";
+        private static string strConnect = "Server=DESKTOP-QTR24AC;Database=QuanLyToaNha_DB;Integrated Security=True;TrustServerCertificate=True;";
 
         public static SqlConnection GetConnection()
         {

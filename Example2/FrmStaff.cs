@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.Drawing; // Thêm thư viện này để dùng Color
 using System.Windows.Forms;
 
 namespace ADO_Example
@@ -59,7 +60,7 @@ namespace ADO_Example
                 cbbRole.Text = r.Cells["Role"].Value.ToString();
 
                 bool isActive = Convert.ToBoolean(r.Cells["IsActive"].Value);
-                cbbStatus.Text = isActive ? "Đang hoạt động" : "Đã khóa";
+                cbbStatus.Text = isActive ? "Active" : "Locked"; // Sửa lại cho khớp với Items trong Designer
             }
         }
 
@@ -73,7 +74,7 @@ namespace ADO_Example
 
             try
             {
-                int status = (cbbStatus.Text == "Đang hoạt động") ? 1 : 0;
+                int status = (cbbStatus.Text == "Active") ? 1 : 0;
                 string query = $"INSERT INTO Staffs (Username, Password, FullName, Role, IsActive) " +
                                $"VALUES ('{txtUser.Text}', '{txtPass.Text}', N'{txtName.Text}', '{cbbRole.Text}', {status})";
 
@@ -88,7 +89,7 @@ namespace ADO_Example
             if (txtUser.Enabled) return; // Nếu đang ở chế độ thêm mới thì ko sửa
             try
             {
-                int status = (cbbStatus.Text == "Đang hoạt động") ? 1 : 0;
+                int status = (cbbStatus.Text == "Active") ? 1 : 0;
                 string query = $"UPDATE Staffs SET Password='{txtPass.Text}', FullName=N'{txtName.Text}', " +
                                $"Role='{cbbRole.Text}', IsActive={status} WHERE Username='{txtUser.Text}'";
 
@@ -125,6 +126,9 @@ namespace ADO_Example
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
+            // SỬA LỖI: Nếu text đang là placeholder thì không tìm kiếm
+            if (txtSearch.Text == "Tìm kiếm theo tên..." || txtSearch.ForeColor == Color.Gray) return;
+
             string kw = txtSearch.Text.Trim();
             string query = $"SELECT Username, Password, FullName, Role, IsActive FROM Staffs " +
                            $"WHERE Username LIKE '%{kw}%' OR FullName LIKE N'%{kw}%' OR Role LIKE '%{kw}%'";
@@ -136,7 +140,8 @@ namespace ADO_Example
         {
             txtUser.Enabled = true; // Cho phép nhập lại Username
             txtUser.Clear(); txtPass.Clear(); txtName.Clear();
-            cbbRole.SelectedIndex = -1; cbbStatus.SelectedIndex = 0; // Mặc định Active
+            cbbRole.SelectedIndex = -1;
+            cbbStatus.SelectedIndex = 0; // Mặc định Active
             txtUser.Focus();
         }
     }

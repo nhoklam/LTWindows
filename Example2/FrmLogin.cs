@@ -22,11 +22,10 @@ namespace ADO_Example
         }
 
         // --- SỰ KIỆN NÚT ĐĂNG NHẬP ---
-        // Sửa lỗi: 'FrmLogin' does not contain a definition for 'btnLogin_Click'
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUser.Text.Trim();
-            string password = txtPass.Text.Trim(); // Sử dụng biến txtPass từ Designer
+            string password = txtPass.Text.Trim();
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
@@ -37,7 +36,8 @@ namespace ADO_Example
             // --- KẾT NỐI SQL SERVER ---
             try
             {
-                // Gọi hàm lấy dữ liệu từ DatabaseHelper (Bạn cần đảm bảo đã tạo file DatabaseHelper như hướng dẫn trước)
+                // Gọi hàm lấy dữ liệu từ DatabaseHelper
+                // Đảm bảo bạn đã có bảng Staffs và DatabaseHelper như hướng dẫn trước
                 string query = $"SELECT * FROM Staffs WHERE Username = '{username}' AND Password = '{password}' AND IsActive = 1";
                 DataTable dt = DatabaseHelper.GetData(query);
 
@@ -88,24 +88,12 @@ namespace ADO_Example
         }
 
         // --- SỰ KIỆN NÚT THOÁT (X) ---
-        // Sửa lỗi: 'FrmLogin' does not contain a definition for 'btnExit_Click'
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        // --- SỰ KIỆN LINK ĐĂNG KÝ ---
-        // Sửa lỗi: 'FrmLogin' does not contain a definition for 'lnkRegister_LinkClicked'
-        private void lnkRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            FrmRegister frm = new FrmRegister();
-            this.Hide();
-            frm.ShowDialog();
-            this.Show();
-        }
-
         // --- SỰ KIỆN KÉO FORM ---
-        // Sửa lỗi: 'FrmLogin' does not contain a definition for 'panelLeft_MouseDown'
         private void panelLeft_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
